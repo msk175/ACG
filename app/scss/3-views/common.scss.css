@@ -69,9 +69,9 @@ A.buyonline, A:hover.buyonline {font-size:14px;}
 em.n16blue {font-weight:normal; font-size:16px; color:#0065a4; display: block; }
 .Link6{FONT-SIZE:10px;COLOR:#172169;FONT-FAMILY:Arial,Verdana,Helvetica,sans-serif}
 .Link2{
-    FONT-SIZE:12px;
+	FONT-SIZE:12px;
 }
-    
+	
 /* Template Styles */
 .links-logo-container{height:84px;}
 #leftnav { width: 205px; display: inline; float: left; padding: 24px 0px 0px 0px; margin-right:10px; }
@@ -99,37 +99,37 @@ em.n16blue {font-weight:normal; font-size:16px; color:#0065a4; display: block; }
 }
 
 /* root element for Ad Spot scroll feature (this element stays still) */
-            .scrollableAds {
-                position: relative;
-                overflow: hidden;
-                width: 920px;
-                height:200px;
-                float:left;
-            }
-            /* root element for scrollable items in Ad Spot scroll feature */
-            .scrollableAds .adItems {
-                width:20000em;
-                position:absolute;
-                clear:both;
-            }
-            /* a single item in Ad Spot scroll feature */
-            .adItems .slider-item {
-                float:left;
-                margin: 0px 4px 0px 1px;
+		    .scrollableAds {
+			    position: relative;
+			    overflow: hidden;
+			    width: 920px;
+			    height:200px;
+			    float:left;
+		    }
+		    /* root element for scrollable items in Ad Spot scroll feature */
+		    .scrollableAds .adItems {
+			    width:20000em;
+			    position:absolute;
+			    clear:both;
+		    }
+		    /* a single item in Ad Spot scroll feature */
+		    .adItems .slider-item {
+			    float:left;
+			    margin: 0px 4px 0px 1px;
                 background: transparent url("/assets/Images/AdSpots/ADSPOT-BKGD.png") no-repeat;
                 width: 225px;
-            }
-            a.browseAds {
-                display:block;
-                width:12px;
-                height:84px;
-                margin: 0px 0px 0px 0px;
-                cursor:pointer;
-            }
-            a.rightAds { float:right; background:url(/assets/images/btn/ADSPOT-ARROWR.png) no-repeat; margin-left:2px; }
-            a.rightAds:hover { background:url(/assets/images/btn/ADSPOT-ARROWR-ENABLED.png) no-repeat; }
-            a.leftAds { float:left; background:url(/assets/images/btn/ADSPOT-ARROWL.png) no-repeat; margin-right: 4px; } 
-            a.leftAds:hover { background:url(/assets/images/btn/ADSPOT-ARROWL-ENABLED.png) no-repeat; }
+		    }
+		    a.browseAds {
+			    display:block;
+			    width:12px;
+			    height:84px;
+			    margin: 0px 0px 0px 0px;
+			    cursor:pointer;
+		    }
+		    a.rightAds { float:right; background:url(/assets/images/btn/ADSPOT-ARROWR.png) no-repeat; margin-left:2px; }
+		    a.rightAds:hover { background:url(/assets/images/btn/ADSPOT-ARROWR-ENABLED.png) no-repeat; }
+		    a.leftAds { float:left; background:url(/assets/images/btn/ADSPOT-ARROWL.png) no-repeat; margin-right: 4px; } 
+		    a.leftAds:hover { background:url(/assets/images/btn/ADSPOT-ARROWL-ENABLED.png) no-repeat; }
 
 div.right-col .glo-ad {padding-top:35px; word-wrap: break-word; margin-left:auto; margin-right:auto; margin-top:auto;}
 .right-col {
@@ -148,42 +148,42 @@ div.right-col .glo-ad {padding-top:35px; word-wrap: break-word; margin-left:auto
 .page-content h1 { color: #2c68ab; font-size: 22px; line-height: 24px; font-family: 'Mission Gothic', Arial Narrow Bold; font-weight: bold; font-style: normal; padding:0px; margin:0px; letter-spacing:-0.03em; }
 .page-content h2 { color: #0065a4; font-size: 18px; line-height: 20px; font-weight: normal; font-style: normal; font-family: 'Mission Gothic', Arial Narrow, Helvetica, sans-serif; padding:0px; margin:0px; letter-spacing:-0.03em; }
 .page-content ul {
-    color:#666666;
-    display:block;
+	color:#666666;
+	display:block;
 }
 .cta-sub-panel ul
 {
-    margin: 8px 0px 10px 0px;
+	margin: 8px 0px 10px 0px;
 }
 .cta-sub-panel ul li
 {
     padding:0px;
-    margin: 0px 0px 6px 15px;
+	margin: 0px 0px 6px 15px;
     list-style-position: outside;
-    list-style-image: url("/assets/images/Global/blue_bullet.png");
-    list-style-type: none;
+	list-style-image: url("/assets/images/Global/blue_bullet.png");
+	list-style-type: none;
 }
 .page-content ul li {
-    font-family:Verdana,Arial,Helvetica,Sans-serif;
-    font-size:11px;
-    font-weight:normal;
-    padding:0px;
-    margin: 0px 0px 8px 15px;
-    list-style-position: outside;
-    list-style-image: url("/assets/images/Global/blue_bullet.png");
-    list-style-type: none;
+	font-family:Verdana,Arial,Helvetica,Sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	padding:0px;
+	margin: 0px 0px 8px 15px;
+	list-style-position: outside;
+	list-style-image: url("/assets/images/Global/blue_bullet.png");
+	list-style-type: none;
 }
 .page-content ol li {
  list-style-type: decimal;
 }
 .page-content a {
     font-family:Verdana,Arial,Helvetica,Sans-serif;
-    font-size:11px;
+	font-size:11px;
     text-decoration:underline;
 }
 .page-content li a {
     font-family:Verdana,Arial,Helvetica,Sans-serif;
-    font-size:11px;
+	font-size:11px;
 }
 
 .left-wraps-right {padding-top:31px;}
@@ -228,18 +228,18 @@ ul.pagation li span {font-weight:bold; color:#333;}
 .page-tab-content ul.tabs {position:absolute; top:-33px; height:34px; z-index:10; width:707px; left: 60px;}
 .page-tab-content ul.tabs li {display:inline; float:left; margin-left: 0px; margin-right:2px; overflow:hidden; height:34px;}
 .page-tab-content ul.tabs li a { 
-    font-family:  News Gothic MT, Arial, Helvetica, sans-serif !important;
-    text-decoration: none;
-    color:#333333; 
-    font-size:12px; 
-    text-transform:uppercase; 
-    font-weight:bold; 
-    display:inline; 
-    float:left; 
-    padding:12px 8px 12px 12px; 
-    background-color:#ffffff; 
-    opacity:.75; 
-    filter: alpha(opacity=75);
+	font-family:  News Gothic MT, Arial, Helvetica, sans-serif !important;
+	text-decoration: none;
+	color:#333333; 
+	font-size:12px; 
+	text-transform:uppercase; 
+	font-weight:bold; 
+	display:inline; 
+	float:left; 
+	padding:12px 8px 12px 12px; 
+	background-color:#ffffff; 
+	opacity:.75; 
+	filter: alpha(opacity=75);
 }
 .page-tab-content ul.tabs li a:hover {color:#333333; opacity:1; filter: alpha(opacity=100);}
 .page-tab-content ul.tabs li a.active {color:#333333; opacity:1; filter: alpha(opacity=100);}
@@ -301,18 +301,18 @@ h1.sycsMoreInfoPartner
     border-left: 1px solid #dbdbdb;
     background: rgba(255, 255, 255, 1);
     opacity:1;
-    filter: alpha(opacity=100);
+	filter: alpha(opacity=100);
 }
 .sub-tab-content ul.sub-tabs li.faux-tab1 a {
     border-left:none;
     background: rgba(255, 255, 255, 1);
     opacity:1; 
-    filter: alpha(opacity=100);
+	filter: alpha(opacity=100);
 }
 .sub-tab-content ul.sub-tabs li.lastTab a {
     background: rgba(255, 255, 255, 1);
     opacity:1; 
-    filter: alpha(opacity=100);
+	filter: alpha(opacity=100);
 }
 
 .sub-panels {clear:both; position:relative;}
@@ -444,10 +444,10 @@ div.glo-ad-clickable a:hover {text-decoration: none; }
 #cruises .right-body .featured-partner {margin-bottom:25px; display:block;}
 #cruises .right-body .view-all-link {color:#0065A4; text-decoration:underline;}
 #cruises .lower-body {padding-bottom:20px; clear:both;}
-    #cruise-finder {margin:20px 10px 20px 25px; }
-    #cruise-finder select {width:100%;}
-    #cruise-finder .formEntry {margin-top:5px;}
-    #cruise-finder .button-container {margin-top:10px;}
+	#cruise-finder {margin:20px 10px 20px 25px; }
+	#cruise-finder select {width:100%;}
+	#cruise-finder .formEntry {margin-top:5px;}
+	#cruise-finder .button-container {margin-top:10px;}
 
 /* Vacation Package Styles */
 .vacation-package {width:204px; height:290px; display:inline; float:left; line-height:17px;}
@@ -803,187 +803,187 @@ a.teaserLinks{font-size:11px !important; color:#666666 !important;}
 /* --------------Formerly Default.css-------------- */
 /* specific main content id  */
 #the-main-content-wrapper {
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: transparent;
-    background-origin: padding-box;
-    background-position: left top;
-    background-repeat: repeat-y;
-    background-size: auto auto;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding:20px 0px; /* top-bottom and left-right  */
-    width:748px;
-    margin:0 0 85px 0;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: transparent;
+	background-origin: padding-box;
+	background-position: left top;
+	background-repeat: repeat-y;
+	background-size: auto auto;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding:20px 0px; /* top-bottom and left-right  */
+	width:748px;
+	margin:0 0 85px 0;
 }
 
 .the-main-page-right-content {
-    float:right;
-    display:block;
+	float:right;
+	display:block;
 }
 .the-main-page-right-content-243 {
-    float:right;
-    display:block;
-    width:243px;
+	float:right;
+	display:block;
+	width:243px;
 }
 .the-main-page-right-content-268 {
-    float:right;
-    display:block;
-    width:243px;
-    padding-left:25px;
-    height: auto;
+	float:right;
+	display:block;
+	width:243px;
+	padding-left:25px;
+	height: auto;
 }
 .right-content-268-images img {
-    padding: 15px 15px 0px;
+	padding: 15px 15px 0px;
 }
 /* standard main body content column sizes  */
 .the-main-page-content {
-    float:left;
-    display:block;
-    padding:0px;
+	float:left;
+	display:block;
+	padding:0px;
 }
 .the-main-page-disclaimer {
-    clear:both;
-    width:658px; /* standard full 708 page width disclimer  */
-    min-height:100px;
-    border-top:1px #d4d4d4 solid;
-    padding:20px 25px;
-    display:block;      
-    margin:0px;
+	clear:both;
+	width:658px; /* standard full 708 page width disclimer  */
+	min-height:100px;
+	border-top:1px #d4d4d4 solid;
+	padding:20px 25px;
+	display:block;		
+	margin:0px;
 }
 
 .the-main-page-primary-content
 {
-    width: 480px;
+	width: 480px;
     float:left;
-    padding:0px 0px 10px 20px;
+	padding:0px 0px 10px 20px;
 }
 
 /* 2013 Global Colors  */
 #the-main-content-wrapper .acgBlue {
-    color: #559CBE; /* this is standard light blue headline font color*/
+	color: #559CBE; /* this is standard light blue headline font color*/
 }
 #the-main-content-wrapper .acgDarkBlue {
-    color: #0065A4; /* this is medium dark blue standard color */
+	color: #0065A4; /* this is medium dark blue standard color */
 }
 #the-main-content-wrapper .acgNavyBlue {
-    color: #245990; /* this is dark blue limited-used color */
+	color: #245990; /* this is dark blue limited-used color */
 }
 #the-main-content-wrapper .acgBlack {
-    color: #666; /* this is standard off-black for body copy, most text and link underlines */
+	color: #666; /* this is standard off-black for body copy, most text and link underlines */
 }
 
 /* 2013 Global Text Styling  */
 #the-main-content-wrapper h1 {
-    font-size: 16px;
-    font-weight: bold;
-    color: #559CBE; /* this is lighter blue. for dark blue color call = #0065A4;*/
-    margin: 0px;
-    padding-bottom:5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #559CBE; /* this is lighter blue. for dark blue color call = #0065A4;*/
+	margin: 0px;
+	padding-bottom:5px;
 }
 #the-main-content-wrapper h2 {
-    font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
-    font-size: 14px;
-    font-weight: bold;
-    color: #559CBE; /* this is lighter blue. for dark blue color call = #0065A4;*/
-    line-height:1.6em;  
-    margin: 0px;
-    padding-bottom:5px;
+	font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
+	font-size: 14px;
+	font-weight: bold;
+	color: #559CBE; /* this is lighter blue. for dark blue color call = #0065A4;*/
+	line-height:1.6em;	
+	margin: 0px;
+	padding-bottom:5px;
 }
 #the-main-content-wrapper .life-cta-box h2 {
-    font-family: Verdana,Arial,Helvetica,Sans-serif; /* standard text font call*/
-    font-size:16px;
-    font-weight:bold;
-    color:#245990;
-    line-height:1.6em;
-    padding:0px;
-    margin:0px;
-    display:block;
+	font-family: Verdana,Arial,Helvetica,Sans-serif; /* standard text font call*/
+	font-size:16px;
+	font-weight:bold;
+	color:#245990;
+	line-height:1.6em;
+	padding:0px;
+	margin:0px;
+	display:block;
 }
 #the-main-content-wrapper h3 {
-    font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
-    font-size: 12px;
-    font-weight:bold;
-    color:#666666; /* standard font color;*/
-    line-height:1.6em;  
-    margin: 0px;
-    padding-bottom:5px;
+	font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
+	font-size: 12px;
+	font-weight:bold;
+	color:#666666; /* standard font color;*/
+	line-height:1.6em;	
+	margin: 0px;
+	padding-bottom:5px;
 }
 #the-main-content-wrapper h4 {
-    font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
-    font-size: 11px;
-    font-weight:bold;
-    color:#666666; /* standard font color;*/
-    line-height:1.6em;
-    margin: 0px;
-    padding-bottom:5px;
+	font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
+	font-size: 11px;
+	font-weight:bold;
+	color:#666666; /* standard font color;*/
+	line-height:1.6em;
+	margin: 0px;
+	padding-bottom:5px;
 }
 
 /* lead-in-subhead used for standard body copy lead-ins rather than strong for better SEO value*/
 #the-main-content-wrapper .lead-in-subhead { /* standard body text calls used*/
-    font-family:Verdana,Arial,Helvetica,Sans-serif; 
-    font-size:11px;
-    font-weight:bold;
-    color:#666666;
-    line-height:1.6em;
-    padding: 0 5px 0 0; /* gives 5px right padding to create white space to avoid running into regular text that follows*/
-    margin:0px;
-    display:inline-block;       
+	font-family:Verdana,Arial,Helvetica,Sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+	color:#666666;
+	line-height:1.6em;
+	padding: 0 5px 0 0; /* gives 5px right padding to create white space to avoid running into regular text that follows*/
+	margin:0px;
+	display:inline-block;		
 }
 #the-main-content-wrapper h5 {
-    font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
-    font-size: 10px;
-    font-weight:bold;
-    color:#666666; /* standard font color;*/
-    line-height:1.6em;
-    margin: 0px;
-    padding-bottom:5px;
+	font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
+	font-size: 10px;
+	font-weight:bold;
+	color:#666666; /* standard font color;*/
+	line-height:1.6em;
+	margin: 0px;
+	padding-bottom:5px;
 }
 /* phone number CTA */
 #the-main-content-wrapper .phoneCTA { 
-    font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
-    font-size: 26px;
-    font-weight:bold;
-    color: #559CBE; /* this is standard light blue headline font color*/
-    line-height:1.6em;
-    margin: 0px;
-    padding: 20px 0px;
+	font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
+	font-size: 26px;
+	font-weight:bold;
+	color: #559CBE; /* this is standard light blue headline font color*/
+	line-height:1.6em;
+	margin: 0px;
+	padding: 20px 0px;
 }
 
 /* add extra padding when H2 follows p for better visual separation */
 p + h2 {
-    padding-top:10px;
+	padding-top:10px;
 }
 
 #the-main-content-wrapper p {
-    font-family:Verdana,Arial,Helvetica,Sans-serif;
-    font-size:11px;
-    font-weight:normal;
-    color:#666666;
-    line-height:1.6em;
-    padding-bottom:10px;
-    display:block;
+	font-family:Verdana,Arial,Helvetica,Sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#666666;
+	line-height:1.6em;
+	padding-bottom:10px;
+	display:block;
 }
 .the-main-page-disclaimer p {
-    font-family:Verdana,Arial,Helvetica,Sans-serif;
-    font-size: 9px;
-    line-height:1.5em;
-    color: #666666; 
-    line-height:1.6em;
-    padding-bottom:10px;
-    display:block;
+	font-family:Verdana,Arial,Helvetica,Sans-serif;
+	font-size: 9px;
+	line-height:1.5em;
+	color: #666666;	
+	line-height:1.6em;
+	padding-bottom:10px;
+	display:block;
 }
 
 #the-main-content-wrapper .life-cta-box p {
-    font-family:Verdana,Arial,Helvetica,Sans-serif;
-    font-size:12px;
-    font-weight:normal;
-    color:#559CBE;
-    line-height:1.6em;
-    padding:0px;
-    margin:0px;
-    display:block;
+	font-family:Verdana,Arial,Helvetica,Sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#559CBE;
+	line-height:1.6em;
+	padding:0px;
+	margin:0px;
+	display:block;
 }
 
 /* 2013 Global Selector Styles  */
@@ -1009,13 +1009,13 @@ p + h2 {
 
 /* 2013 Global Tag Styles  */
 #the-main-content-wrapper sup {
-    vertical-align: baseline;
-    position: relative;
-    top: -0.4em;
-    font-size:10px;
+	vertical-align: baseline;
+	position: relative;
+	top: -0.4em;
+	font-size:10px;
 }
 #the-main-content-wrapper strong {
-    font-weight:bold;
+	font-weight:bold;
 }
 
 h1, h2, h3, h4, h5 {margin: 0; padding: 0; font-weight: normal; }
@@ -1052,8 +1052,8 @@ em.n16blue {color:#559cbe;}
 #header #sub-nav { 
     text-align: right; float:right; padding-top:6px; padding-right:12px; 
     font-family: "Mission Gothic", Arial Narrow, Verdana;
-    font-weight:normal; 
-    font-style:normal;
+	font-weight:normal; 
+	font-style:normal;
     font-size: 13px;
 }
 #header #sub-nav .divider { padding: 0px 9px; font-size:14px; }
@@ -1066,8 +1066,8 @@ em.n16blue {color:#559cbe;}
 #contactbox {
     font-size: 15px;
     font-family: "Mission Gothic", Arial Narrow Bold;
-    font-weight:normal; 
-    font-style:normal;
+	font-weight:normal; 
+	font-style:normal;
     text-align: left;
     height: auto;
     width: 188px;
@@ -1090,15 +1090,15 @@ em.n16blue {color:#559cbe;}
     text-decoration: underline;
     font-size: 15px;
     font-family: "Mission Gothic", Arial Narrow Bold;
-    font-weight:normal; 
-    font-style:normal;
+	font-weight:normal; 
+	font-style:normal;
 }
 .menu_title { 
     font-size: 15px;
     color: #666666;
     font-family: "Mission Gothic", Arial Narrow Bold;
-    font-weight:bold; 
-    font-style:normal;
+	font-weight:bold; 
+	font-style:normal;
     line-height: 17px; 
 }
 
@@ -1120,32 +1120,32 @@ ul#top-links li, ul#top-links li a {color:#666666; font-size:10px;}
 
 /* --------------Formerly Drop-Down.css-------------- */
 .Drop-Down, .Drop-Down div, .Drop-Down .Corner, .Drop-Down .Bottom {
-    background-image: url("/assets/Images/Global/Drop-Down.png");
+	background-image: url("/assets/Images/Global/Drop-Down.png");
 }
 .Drop-Down {
-    background-repeat: repeat-y;
-    padding-left: 15px;
-    display: inline-block;
-    position: absolute;
-    left: -8px;
-    top: 56px;
-    z-index: 10;
-    visibility: hidden;
+	background-repeat: repeat-y;
+	padding-left: 15px;
+	display: inline-block;
+	position: absolute;
+	left: -8px;
+	top: 56px;
+	z-index: 10;
+	visibility: hidden;
 }
 
 #Navigation > ul > li:hover .Drop-Down {
-    visibility: visible;
+	visibility: visible;
 }
 .Drop-Down > div {
-    background-position: right top;
-    background-repeat: repeat-y;
-    background-color: transparent;
-    padding-right: 15px;
+	background-position: right top;
+	background-repeat: repeat-y;
+	background-color: transparent;
+	padding-right: 15px;
 }
 .Drop-Down div div {
-    background-repeat: repeat-y;
-    background-color: #fff;
-    position: relative;
+	background-repeat: repeat-y;
+	background-color: #fff;
+	position: relative;
 }
 
 .White2-Grey1 {width: 535px;}
@@ -1155,82 +1155,82 @@ ul#top-links li, ul#top-links li a {color:#666666; font-size:10px;}
 .White2 > div > div, .White2 > div > div > div { background-position: -435px 0; }
 
 .Drop-Down > div > div > div {
-    top: 7px;
-    padding: 7px 6px 17px 10px;
+	top: 7px;
+	padding: 7px 6px 17px 10px;
 }
 .Drop-Down .Corner {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    position: absolute;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
 }
 .Drop-Down .Corner-Left-Bottom {
-    background-position: -1200px 0;
-    left: -15px;
-    bottom: -15px;
+	background-position: -1200px 0;
+	left: -15px;
+	bottom: -15px;
 }
 .Drop-Down .Corner-Right-Bottom {
-    background-position: -1216px 0;
-    right: -15px;
-    bottom: -15px;
+	background-position: -1216px 0;
+	right: -15px;
+	bottom: -15px;
 }
 .Drop-Down .Bottom {
-    display: inline-block;
-    position: absolute;
-    background-position: -1232px 7px;
-    height: 15px;
-    width: 100%;
-    left: 0;
-    bottom: -15px;
-    margin-right: 30px;
+	display: inline-block;
+	position: absolute;
+	background-position: -1232px 7px;
+	height: 15px;
+	width: 100%;
+	left: 0;
+	bottom: -15px;
+	margin-right: 30px;
 }
 .Drop-Down .Columns-White > li {
-    width: 160px;
-    float: left;
+	width: 160px;
+	float: left;
 }
 .Drop-Down .Columns-White > li:first-child {
-    margin-left: 0;
+	margin-left: 0;
 }
 .Drop-Down .Columns-White > li:nth-child(2) { margin-left: 14px; }
 .Drop-Down .Columns-Grey > li {
-    width: 130px;
-    float: left;
+	width: 130px;
+	float: left;
 }
 .Drop-Down .Columns-Grey {
-    float: right;
+	float: right;
 }
 .Drop-Down li li {
-    font: 11px/13px Verdana, Geneva, sans-serif;
-    color: #666;
+	font: 11px/13px Verdana, Geneva, sans-serif;
+	color: #666;
 }
 .Drop-Down li li:first-child {
-    padding: 0 0 10px;
+	padding: 0 0 10px;
 }
 .Drop-Down li.Divider {
-    padding: 15px 0 10px;
+	padding: 15px 0 10px;
 }
 .Drop-Down li.No-Link {
-    padding-top: 3px;
-    padding-bottom: 2px;
+	padding-top: 3px;
+	padding-bottom: 2px;
 }
 .Drop-Down h4 {
-    font: 12px/14px Verdana, Geneva, sans-serif;
-    color: #0065a4;
+	font: 12px/14px Verdana, Geneva, sans-serif;
+	color: #0065a4;
 }
 .Drop-Down h5 {
-    font: bold 11px/13px Verdana, Geneva, sans-serif;
-    color: #333;
+	font: bold 11px/13px Verdana, Geneva, sans-serif;
+	color: #333;
 }
 .Drop-Down a {
-    color: #666;
-    display: block;
-    padding-top: 3px;
-    padding-bottom: 2px;
-    background: none;
+	color: #666;
+	display: block;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	background: none;
 }
 .Drop-Down a:hover {
-    text-decoration: underline;
-    color: #559cbe;
+	text-decoration: underline;
+	color: #559cbe;
 }
 /* Right-align Banking drop down for NR */
 .Navigation-CWS .Bank .Drop-Down { left: inherit;  *left: -419px;right: -8px; }
@@ -1239,74 +1239,74 @@ ul#top-links li, ul#top-links li a {color:#666666; font-size:10px;}
 .Navigation-CWS .Financial .Drop-Down { left: inherit;  *left: -429px;right: -8px; }
 .Navigation-CWS .Community .Drop-Down { left: inherit;  *left: -259px;right: -8px; }
 .DropDownInheritZ {
-    z-index: 0;
+	z-index: 0;
 }
 
 /* --------------Formerly Global.css-------------- */
-.Clear                  {clear: both;}
-.ClearFix:after     {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
-.ClearFix               {display: inline-table;}
-.ClearFix               {display: block;}
-.Required               {color: #c10 !important; font: 11px/1em Verdana, Geneva, sans-serif;}
-.Float-Right            {float: right;}
-.Float-Left             {float: left;}
+.Clear					{clear: both;}
+.ClearFix:after		{content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.ClearFix				{display: inline-table;}
+.ClearFix				{display: block;}
+.Required				{color: #c10 !important; font: 11px/1em Verdana, Geneva, sans-serif;}
+.Float-Right			{float: right;}
+.Float-Left				{float: left;}
 
 /* Main Containers */
-.Full-Container     {padding: 20px 25px 30px;}
+.Full-Container		{padding: 20px 25px 30px;}
 
 /* Forms */
 .Form {
-    width: 100%;
-    margin-bottom: 20px;
+	width: 100%;
+	margin-bottom: 20px;
 }
 .Form td {
-    vertical-align: text-top;
-    min-height: 26px;
+	vertical-align: text-top;
+	min-height: 26px;
 }
 .Form .Label {
-    text-align: right;
-    white-space: nowrap;
-    padding: 6px 3px 0 0;
+	text-align: right;
+	white-space: nowrap;
+	padding: 6px 3px 0 0;
 }
 .Form td.Extra-Padding {padding-bottom: 12px;}
 .Form input, .Form textarea, .Form select, .Form option {
-    font: 12px/20px Verdana, Geneva, sans-serif;
-    color: #555;
-    margin: 0;
-    padding: 0;
+	font: 12px/20px Verdana, Geneva, sans-serif;
+	color: #555;
+	margin: 0;
+	padding: 0;
 }
 .Form input[type=text], .Form textarea, .Form select {
-    border: 1px solid #c4c4c4;
-    background-color: #f6f6f6;
+	border: 1px solid #c4c4c4;
+	background-color: #f6f6f6;
 }
 .Form select {
-    padding: 2px 4px 3px 2px;
-    height: 24px;
-    min-width: 50px;
+	padding: 2px 4px 3px 2px;
+	height: 24px;
+	min-width: 50px;
 }
-.Form input[type=text]                      {height: 24px; width: 225px; text-indent: 2px;}
-.Form input[type=text], .Form select    {margin-right: 4px;}
-.Form input[type=radio]                     {position: relative; top: 2px; width: 25px;}
-.Form input[type=checkbox]                  {margin-right: 5px;}
-.Form label                                     {font-weight: bold; color: #333;}
-.Form .Normal                                   {font-weight: normal; color: #767676;   margin: 0 5px 0 0;}
-.Form .Label .Normal                            {margin: 0;}
-.Form label.Inline                          {margin: 0 5px;}
-.Form .Force-Height                         {height: 20px;}
-.Form .Force-Height div                     {position: relative; left: -6px;}
-.Form input[type=radio].Extra-Margin    {margin-left: 5px;}
-.Form input[type=text].Extra-Margin     {margin: 0 6px 0 7px;}
+.Form input[type=text]						{height: 24px; width: 225px; text-indent: 2px;}
+.Form input[type=text], .Form select	{margin-right: 4px;}
+.Form input[type=radio]						{position: relative; top: 2px; width: 25px;}
+.Form input[type=checkbox]					{margin-right: 5px;}
+.Form label										{font-weight: bold; color: #333;}
+.Form .Normal									{font-weight: normal; color: #767676;	margin: 0 5px 0 0;}
+.Form .Label .Normal							{margin: 0;}
+.Form label.Inline							{margin: 0 5px;}
+.Form .Force-Height							{height: 20px;}
+.Form .Force-Height div						{position: relative; left: -6px;}
+.Form input[type=radio].Extra-Margin 	{margin-left: 5px;}
+.Form input[type=text].Extra-Margin 	{margin: 0 6px 0 7px;}
 .Form input[type=checkbox].Checkbox-Single {float: left; margin: 0 10px 20px 0; position: relative; top: 1px;}
 .Form input[type=checkbox].Margin-Left {margin-left: 12px;}
-.Form .Greyed                           {color: #999;}
+.Form .Greyed 							{color: #999;}
 
-td.Slash                                {font-size: 14px;}
+td.Slash 								{font-size: 14px;}
 
-tr.Multi-Line td                        {padding-top: 7px;}
-tr.Multi-Line td label              {line-height: 13px; position: relative; top: -7px;}
+tr.Multi-Line td						{padding-top: 7px;}
+tr.Multi-Line td label				{line-height: 13px; position: relative; top: -7px;}
 
-ul.Radio-List                                   {margin: 0 0 18px 10px;}
-ul.Radio-List li                                {margin-bottom: 6px;}
+ul.Radio-List									{margin: 0 0 18px 10px;}
+ul.Radio-List li								{margin-bottom: 6px;}
 
 .Form-No-Labels {margin-bottom: 13px;}
 .Form-No-Labels td {padding: 0 0 8px;}
@@ -1324,94 +1324,94 @@ a.Button-Grey, a.Button-Blue, a.Button-Red, span.Button-Selected {
     text-decoration: none !important; 
 }
 a.Button-Grey span, a.Button-Blue span, a.Button-Red span, span.Button-Selected span {
-    background: url(/assets/images/btn/Buttons2014.png) no-repeat right top;
-    display: inline-block;
-    height: 24px;
-    width: 12px;
-    position: absolute;
-    top: 0;
-    right: -12px;
-    cursor: pointer; /* IE6 Fix */
+	background: url(/assets/images/btn/Buttons2014.png) no-repeat right top;
+	display: inline-block;
+	height: 24px;
+	width: 12px;
+	position: absolute;
+	top: 0;
+	right: -12px;
+	cursor: pointer; /* IE6 Fix */
 }
-a.Button-Blue                   {background-position: left -24px; color: #fff !important; text-shadow: 0 1px #31628d;} /* (!important) IE6 Fix */
-a.Button-Blue span          {background-position: right -24px;}
-a.Button-Blue:hover         {background-position: left 0px;}
-a.Button-Blue:hover span    {background-position: right 0px;}
-a.Button-Red                    {background-position: left -72px; color: #fff !important; text-shadow: 0 1px #31628d;} /* (!important) IE6 Fix */
-a.Button-Red span           {background-position: right -72px;}
-a.Button-Red:hover          {background-position: left -48px;}
-a.Button-Red:hover span {background-position: right -48px;}
-a.Button-Grey                   {background-position: left -120px;} /* (!important) IE6 Fix */
-a.Button-Grey span          {background-position: right -120px;}
-a.Button-Grey:hover         {background-position: left -96px; color: #333 !important; text-shadow: 0 1px #ddd;}
-a.Button-Grey:hover span    {background-position: right -96px;}
-span.Button-Selected            {background-position: left -140px; color: #0065a4 !important; padding-left: 30px; text-shadow: none;} /* (!important) IE6 Fix */
-span.Button-Selected span   {background-position: right -140px; cursor: default;}
-a.Button-Search                 {background-position: left -112px; padding-left: 30px;}
-a.Button-Search:hover       {background-position: left -188px;}
+a.Button-Blue					{background-position: left -24px; color: #fff !important; text-shadow: 0 1px #31628d;} /* (!important) IE6 Fix */
+a.Button-Blue span			{background-position: right -24px;}
+a.Button-Blue:hover			{background-position: left 0px;}
+a.Button-Blue:hover span	{background-position: right 0px;}
+a.Button-Red					{background-position: left -72px; color: #fff !important; text-shadow: 0 1px #31628d;} /* (!important) IE6 Fix */
+a.Button-Red span			{background-position: right -72px;}
+a.Button-Red:hover			{background-position: left -48px;}
+a.Button-Red:hover span	{background-position: right -48px;}
+a.Button-Grey					{background-position: left -120px;} /* (!important) IE6 Fix */
+a.Button-Grey span			{background-position: right -120px;}
+a.Button-Grey:hover			{background-position: left -96px; color: #333 !important; text-shadow: 0 1px #ddd;}
+a.Button-Grey:hover span	{background-position: right -96px;}
+span.Button-Selected			{background-position: left -140px; color: #0065a4 !important; padding-left: 30px; text-shadow: none;} /* (!important) IE6 Fix */
+span.Button-Selected span	{background-position: right -140px; cursor: default;}
+a.Button-Search 				{background-position: left -112px; padding-left: 30px;}
+a.Button-Search:hover		{background-position: left -188px;}
 a.Button-Plus {
-    background-image: url(/assets/Images/btn/Buttons.png);
-    background-position: -580px -96px;
-    height: 22px;
-    display: inline-block;
-    line-height: 20px;
-    padding-left: 30px;
-    color: #767676;
+	background-image: url(/assets/Images/btn/Buttons.png);
+	background-position: -580px -96px;
+	height: 22px;
+	display: inline-block;
+	line-height: 20px;
+	padding-left: 30px;
+	color: #767676;
 }
 a.Button-Plus:hover {background-position: -580px -118px;}
 
-td.Error-Cell                               {padding-bottom: 10px;}
+td.Error-Cell								{padding-bottom: 10px;}
 
-p.Error                                     {color: #c10; clear: left; margin: 0 0 15px;}
-td p.Error                                  {margin: 0 !important;}
-p.Error-No-Margin                           {position: relative; top: -15px; margin: 0 0 10px;}
+p.Error										{color: #c10; clear: left; margin: 0 0 15px;}
+td p.Error									{margin: 0 !important;}
+p.Error-No-Margin							{position: relative; top: -15px; margin: 0 0 10px;}
 
 .Form input[type=text].Error, .Form textarea.Error, .Form select.Error {
-    border: 1px solid #ffa6a6;
-    background-color: #fff3f2;
+	border: 1px solid #ffa6a6;
+	background-color: #fff3f2;
 }
 
 .Promo-Alert {
-    display: inline-block;
-    height: 20px;
-    padding: 0 8px 0 25px;
-    line-height: 20px;
+	display: inline-block;
+	height: 20px;
+	padding: 0 8px 0 25px;
+	line-height: 20px;
 }
 
-.Accepted   {color: #008000; background-position: 0 -395px;}
-.Invalid        {color: #c10; background-position: 0 -780px; margin: 7px 0 10px; line-height: 13px; padding-top: 3px; display: block;}
+.Accepted	{color: #008000; background-position: 0 -395px;}
+.Invalid		{color: #c10; background-position: 0 -780px; margin: 7px 0 10px; line-height: 13px; padding-top: 3px; display: block;}
 
 /* Basic Style */
 #Navigation {
-    margin: 0 auto;
-    width: 965px;
+	margin: 0 auto;
+	width: 965px;
 }
 #Navigation > ul {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 #Navigation > ul > li {
-    list-style: none;
-    position: relative;
-    float: left;
+	list-style: none;
+	position: relative;
+	float: left;
 }
 #Navigation > ul, #Navigation > ul > li > a, #Navigation > ul > li > a > span, .Site-Search-Input, .Site-Search-Button  {background-image: url(/assets/Images/Global/MainNav.png); background-repeat: no-repeat;}
 .Navigation-Regular > ul {background-position: 0 0;}
 .Navigation-Regular > ul, .Navigation-Regular > ul > li, .Navigation-Regular > ul > li > a, .Navigation-Regular > ul > li > a > span {height: 56px;}
 #Navigation > ul > li.zindex {
-    z-index: 1000;
+	z-index: 1000;
 }
 #Navigation > ul > li:first-child {
-    border: 0;
+	border: 0;
 }
 #Navigation > ul > li > a, #Navigation > ul > li > a > span {
-    display: block;
-    text-indent: -1900px;
+	display: block;
+	text-indent: -1900px;
 }
 #Navigation > ul > li > a > span:hover {cursor: pointer;} /* IE6-7 Fix */
 #Navigation .Search {
-    position: relative;
-    padding: 0 74px 0 16px;
+	position: relative;
+	padding: 0 74px 0 16px;
 }
 
 .Navigation-Regular .Membership a span {background-position: center -168px;} /* Image width 100px */
@@ -1441,7 +1441,7 @@ p.Error-No-Margin                           {position: relative; top: -15px; mar
 .Site-Search-Input { background-position: -10px -112px; height: 26px; width: 166px; outline: 0; border: 0; border: none !important; background-color: transparent; position: relative; float: left; font: 12px/24px Arial, Verdana, Geneva, sans-serif; color: #999; text-indent: 10px; background-repeat: no-repeat; }
 .Site-Search-Button { background-position: -935px -112px; height: 26px; width: 29px; outline: 0; border: 0; background-color: transparent; position: relative; cursor: pointer; background-repeat: no-repeat; }
 .Site-Search-Button:hover {
-    background-position: -935px -139px;
+	background-position: -935px -139px;
 }
 
 /* Puerto Rico Navigation */
@@ -1503,15 +1503,15 @@ p.Error-No-Margin                           {position: relative; top: -15px; mar
 #Navigation > ul > li:last-child.nav-separator { float: right; }
 
 .aToolTip {
-    display: none;
+	display: none;
     border:2px solid #444;
-    background:#555;
-    color:#fff;
-    position:absolute;
+	background:#555;
+	color:#fff;
+	position:absolute;
     left: 60px;
     margin:0;
-    padding:6px 12px;
-    width: 600px;
+	padding:6px 12px;
+	width: 600px;
 }
 
 .mc-bot-right
@@ -1528,38 +1528,38 @@ p.Error-No-Margin                           {position: relative; top: -15px; mar
 
 /*For destination wedding page and honeymoon planning page*/
 #the-page-masthead-708-211 {
-    background-color: #FFF;
-    margin: 0px;
-    height: 211px;
-    width: 708px;
+	background-color: #FFF;
+	margin: 0px;
+	height: 211px;
+	width: 708px;
 }
 
 .the-main-page-content-400 {
-    display:block;
-    padding:0px;
-    width:400px; /* 400 main content will wrap around right content section area; then expand to 400 wide once it clears right content  */
+	display:block;
+	padding:0px;
+	width:400px; /* 400 main content will wrap around right content section area; then expand to 400 wide once it clears right content  */
 }
 .the-main-page-content-400 ul { padding-left: 14px; }
 
 #the-main-content-wrapper .travel-cta-box-240 h2, #the-main-content-wrapper .travel-cta-box-195 h2 {
-    font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
-    font-size:17px;
-    font-weight:bold;
-    color:#245990;
-    padding: 4px 0 0 0;
-    margin:0px;
-    display:block;
+	font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
+	font-size:17px;
+	font-weight:bold;
+	color:#245990;
+	padding: 4px 0 0 0;
+	margin:0px;
+	display:block;
 }
 
 #the-main-content-wrapper .travel-cta-box-240 p, #the-main-content-wrapper .travel-cta-box-195 p {
-    font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
-    font-size:14px;
-    font-weight:normal;
-    color:#559CBE;
-    line-height:1.4em;
-    padding:0px;
-    margin:0px;
-    display:block;
+	font-family: Arial, Helvetica, sans-serif; /* arial font closer match than verdana for original SIFR*/
+	font-size:14px;
+	font-weight:normal;
+	color:#559CBE;
+	line-height:1.4em;
+	padding:0px;
+	margin:0px;
+	display:block;
 }
 
 #the-main-content-wrapper .travel-cta-box-240 a, #the-main-content-wrapper .travel-cta-box-195 a, #the-main-content-wrapper .travel-cta-box-240 a:link, #the-main-content-wrapper .travel-cta-box-195 a:link, #the-main-content-wrapper .travel-cta-box-240 a:hover, #the-main-content-wrapper .travel-cta-box-195 a:hover, #the-main-content-wrapper .travel-cta-box-240 a:active, #the-main-content-wrapper .travel-cta-box-195 a:active  {
@@ -1571,56 +1571,56 @@ p.Error-No-Margin                           {position: relative; top: -15px; mar
 
 /* 3.25.2013 - layout columns of two main widths for resource download pages like group banner ads  */
 .the-main-page-assets-132 {
-    float:left;
-    display:block;
-    width:132px; /*four columns = 528*/
-    height: auto;
+	float:left;
+	display:block;
+	width:132px; /*four columns = 528*/
+	height: auto;
 }
 
 /* 2.5.2013 - container for 3 column offers like on universal orlando page  */
 .the-main-page-3C-content {
-    clear:both;
-    width:658px; /* standard full 708 page width disclimer  */
-    border-top:1px #d4d4d4 solid;
-    padding:25px;
-    display:block;      
-    margin:0px;
+	clear:both;
+	width:658px; /* standard full 708 page width disclimer  */
+	border-top:1px #d4d4d4 solid;
+	padding:25px;
+	display:block;		
+	margin:0px;
 }
 /* 2.5.2013 - containers for 3 column offers like on universal orlando page  */
 .the-main-page-3C-content-offer {
-    width:200px;
-    float:left;
-    margin:0px;
-    padding:0px 18px 25px 0px;
-    display:block;
+	width:200px;
+	float:left;
+	margin:0px;
+	padding:0px 18px 25px 0px;
+	display:block;
 }
 
 /* 2.5.2013 - main content container used in partner detail pages like universal orlando  */
 .the-main-page-content-463 {
-    display:block;
-    padding:0 25px 0 0;
-    width:463px; /*463 width plus 25 right pad gives main content width of 488 plus 25 main left pad for total of 513 main content size*/
+	display:block;
+	padding:0 25px 0 0;
+	width:463px; /*463 width plus 25 right pad gives main content width of 488 plus 25 main left pad for total of 513 main content size*/
 }
 .the-main-page-content-463 ul { padding: 14px; }
 
 /* 2.5.2013 - right rail content container for partner detail pages like universal orlando  */
 .the-main-page-right-content-155 {
-    float:right;
-    display:block;
-    width:155px; /*155 width plus 15 left pad gives content width of 170 plus 25 main left pad for total of 195 content size*/
-    padding:0 0 0 15px;
-    height: auto;
+	float:right;
+	display:block;
+	width:155px; /*155 width plus 15 left pad gives content width of 170 plus 25 main left pad for total of 195 content size*/
+	padding:0 0 0 15px;
+	height: auto;
 }
 .the-main-page-right-content-155 ul { padding: 12px; }
 
 #the-page-TR-CTA p {
-    font-family:Verdana,Arial,Helvetica,Sans-serif;
-    font-size:10px;
-    font-weight:normal;
-    color:#666666;
-    line-height:1.5em;
-    text-align:left;    /*resets CTA container alignement to left for text - everything else is centered*/
-    margin: 0 15px 6px 10px; /*10px bottom margin provides spacing for CTA button that follows*/
+	font-family:Verdana,Arial,Helvetica,Sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	color:#666666;
+	line-height:1.5em;
+	text-align:left; 	/*resets CTA container alignement to left for text - everything else is centered*/
+	margin: 0 15px 6px 10px; /*10px bottom margin provides spacing for CTA button that follows*/
 }
 #the-page-TR-CTA a, #the-page-TR-CTA a:link, #the-page-TR-CTA a:hover, #the-page-TR-CTA a:active  {
   font-size: 10px !important;
@@ -1701,80 +1701,80 @@ A.sqsReturnLink:hover{FONT-WEIGHT:normal;FONT-SIZE:12px;COLOR:#0000ff;FONT-FAMIL
 /* mouseover row style */
 .sqsDataGrid tr:hover{ background-color:#EDEEEF; }
 .sqsDataGridColumnHeader{
-    background-color:#034883;
-    border: solid 1px #ffffff;
-    color:#FFFFFF;
-    font-family:Arial, Tahoma, Verdana, Sans-Serif;
-    font-size:14px;
-    font-weight:bold;
-    text-align:center;
-    vertical-align:middle;
+	background-color:#034883;
+	border: solid 1px #ffffff;
+	color:#FFFFFF;
+	font-family:Arial, Tahoma, Verdana, Sans-Serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
 }
 .sqsPageSubHeader {font-family: Verdana;font-size: 13px;font-weight: bold;color: #0055b7;}
 .sqsPageSubHeader2 {font-family: Verdana;font-size: 13px;font-weight: bold;color: #172169;}
 .sqsComparisonData{
-    border-bottom: solid 1px #8cc4ec;
-    border-right: solid 1px #8cc4ec;
-    color: #172169;
-    padding: 12px 5px 10px 5px;
-    text-align: center;
-    vertical-align: top;
+	border-bottom: solid 1px #8cc4ec;
+	border-right: solid 1px #8cc4ec;
+	color: #172169;
+	padding: 12px 5px 10px 5px;
+	text-align: center;
+	vertical-align: top;
 }
 .sqsComparisonData2{
-    border-bottom: solid 1px #8cc4ec;
-    border-left: solid 1px #034883;
-    border-right: solid 1px #8cc4ec;
-    color: #73aade;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 11px 5px 12px 5px;
-    text-align: left;
-    vertical-align: top;
+	border-bottom: solid 1px #8cc4ec;
+	border-left: solid 1px #034883;
+	border-right: solid 1px #8cc4ec;
+	color: #73aade;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 11px 5px 12px 5px;
+	text-align: left;
+	vertical-align: top;
 }
 .sqsComparisonData3{
-    border-bottom: solid 1px #8cc4ec;
-    color: #172169;
-    padding: 10px 5px 10px 5px;
-    text-align: center;
-    vertical-align: top;
+	border-bottom: solid 1px #8cc4ec;
+	color: #172169;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	vertical-align: top;
 }
 .sqsComparisonData4{
-    border-bottom: solid 1px #8cc4ec;
-    border-right: solid 1px #034883;
-    color: #172169;
-    padding: 10px 5px 10px 5px;
-    text-align: center;
-    vertical-align: top;
+	border-bottom: solid 1px #8cc4ec;
+	border-right: solid 1px #034883;
+	color: #172169;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	vertical-align: top;
 }
 .sqsPageCheckmarkText{
-    font-family:Arial,Helvetica,Verdana,sans-serif;
-    font-size:14px;
-    color:#172169;
-    padding-left: 20px;
+	font-family:Arial,Helvetica,Verdana,sans-serif;
+	font-size:14px;
+	color:#172169;
+	padding-left: 20px;
 }
 .sqsPageCheckmarkSubText{
-    font-family:Arial,Helvetica,Verdana,sans-serif;
-    font-size:12px;
-    color:#172169;
-    padding-left: 20px;
+	font-family:Arial,Helvetica,Verdana,sans-serif;
+	font-size:12px;
+	color:#172169;
+	padding-left: 20px;
 }
 .sqsPageContactAgentText{
-    font-family:Arial,Helvetica,Verdana,sans-serif;
-    font-size:18px;
-    color:#172169;
-    padding: 10px 20px 20px 20px;
+	font-family:Arial,Helvetica,Verdana,sans-serif;
+	font-size:18px;
+	color:#172169;
+	padding: 10px 20px 20px 20px;
 }
 .sqsPopUpHeader{
-    font-family: Arial,Helvetica,Verdana,sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: #172169;
+	font-family: Arial,Helvetica,Verdana,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #172169;
 }
 .sqsPopUpSubHeader{
-    font-family: Verdana,Arial,Helvetica,sans-serif;
-    line-height:24px;
-    font-size: 12px;
-    color: #999999;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	line-height:24px;
+	font-size: 12px;
+	color: #999999;
 }
 
 /* Gradient Box styles */
@@ -1786,7 +1786,7 @@ A.sqsReturnLink:hover{FONT-WEIGHT:normal;FONT-SIZE:12px;COLOR:#0000ff;FONT-FAMIL
     border: solid 1px #e2e5ea;
 }  
 .PrimaryRowHeaders{
-    FONT-FAMILY:Arial,Helvetica,Verdana,sans-serif;
+	FONT-FAMILY:Arial,Helvetica,Verdana,sans-serif;
     font-size:19px; 
         font-weight:bold; 
         color:gray;   
@@ -1938,28 +1938,28 @@ A.linkXsmall:link{FONT-SIZE:10px;COLOR:#3366cc;FONT-FAMILY:Arial,Helvetica,Verda
 .mainViewport { text-align: left; width: 700px; overflow: auto; }
 .MemberRenewalViewport { text-align: left; width: 610px; overflow: auto; }
 .expandedAreaText{
-    FONT-SIZE:10px;
-    COLOR:#000000;
-    FONT-FAMILY:Arial,Verdana,Helvetica,sans-serif;
+	FONT-SIZE:10px;
+	COLOR:#000000;
+	FONT-FAMILY:Arial,Verdana,Helvetica,sans-serif;
 }
 .descriptionText{
-    font-size:12px;
-    color:black;
-    font-family: Arial, Helvetica, Sans-Serif;
+	font-size:12px;
+	color:black;
+	font-family: Arial, Helvetica, Sans-Serif;
 }
 .resultsbackground1,.RESULTSBACKGROUND1{BORDER-RIGHT:blue thin;BORDER-TOP:blue thin;BACKGROUND-IMAGE:none;BORDER-LEFT:blue thin;BORDER-BOTTOM:blue thin;BACKGROUND-REPEAT:repeat;BACKGROUND-COLOR:#e9f0f8}
 /*Modal Popup's Page Background*/
 .modalBackground{
-    background-color:White;
-    /*filter:alpha(opacity=70);
-    opacity:0.7;*/
+	background-color:White;
+	/*filter:alpha(opacity=70);
+	opacity:0.7;*/
 }
 .modalPopup{
-    background-color:#E9F0F8;
-    border-width:1px;
-    border-style:solid;
-    border-color:Red;
-    padding:3px;
+	background-color:#E9F0F8;
+	border-width:1px;
+	border-style:solid;
+	border-color:Red;
+	padding:3px;
 }
 A.HoverLine:link{text-decoration:none;}
 A.HoverLine:visited{text-decoration:none;}
@@ -1984,13 +1984,13 @@ A.HoverLine:active{text-decoration:none;}
 .ContinueDiv { float: right; margin: 5px 2px 5px 0; text-align: right;  }
 .BackButtonDiv { float: left; margin: 5px 2px 0 0; }
 TD.PopUpGridColumnHeader{
-    background-color:#FFFFFF;
-    text-align:left;
-    vertical-align:middle;
-    font-family:Verdana, Tahoma, Arial, Sans-Serif;
-    font-size:14px;
-    font-weight:bold;
-    color:#73aade;
+	background-color:#FFFFFF;
+	text-align:left;
+	vertical-align:middle;
+	font-family:Verdana, Tahoma, Arial, Sans-Serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#73aade;
 }
 .SectionTitle { font-size: 13pt; font-weight:bold; color:#28377d; padding-top: 20px; border-bottom: 1px solid #28377D; margin-right: 20px;}
 
@@ -2149,10 +2149,10 @@ height: 17px;
 {
 
     background: url(/assets/images/Global/cta-box-middle.png) repeat-y center center;
-            margin: 0;
-            padding-bottom: 12px;
-            text-align:center;
-            width:228px;
+	        margin: 0;
+	        padding-bottom: 12px;
+	        text-align:center;
+	        width:228px;
 
 }
 .cta-bottom {
