@@ -1,0 +1,24 @@
+{
+  "name": "ACG",
+  "version": "1.0.0",
+  "description": "Starting point for CUI angular apps.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thirdwavellc/ACG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thirdwavellc/ACG/issues"
+  },
+  "homepage": "https://github.com/thirdwavellc/ACG",
+  "dependencies" : {
+    "angular-ui-router": "0.2.18",
+    "@covisint/cui-ng": "2.0.1",
+    "@covisint/cui-i18n": "1.0.34"
+    },
+  "devDependencies": {
+    "@covisint/cui-idm-b2x": "1.3.0"
+  }
+}

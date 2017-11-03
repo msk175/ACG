@@ -1,0 +1,15 @@
+.sass-cache
+/bower_components/
+/node_modules/
+/assets/
+build/
+.DS_Store
+**/.DS_Store
+.tmp/
+*.versionsBackup
+*.iml
+.idea
+appConfig.json
+target
+build-artifacts/
+npm-debug.log

@@ -1,0 +1,224 @@
+.signon-app {
+    background: url(/img/bg/sso-bg.png) 0 180px repeat-x;
+}
+
+.signon-app header {
+	margin: 0 auto;
+}
+.signon-app header hgroup h1 {
+    background: url(/img/logo/aaa_400x115.png) 0 0 no-repeat;
+    width: 400px;
+    height: 115px;
+    margin: 12px auto 0 auto;
+}
+
+.signon-app header hgroup h2 {
+	display: none;
+}
+
+.signon-app .container {
+	margin: 100px auto 0 auto;
+	border-radius: 15px;
+}
+
+.signon-app input {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:1px solid #757575;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #306AA8 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #306AA8 4%);
+  background-position: -298px 0;
+  background-size: 298px 100%;
+  background-repeat: no-repeat;
+  color: #306AA8;
+  font-weight:400;
+}
+@supports (-ms-ime-align:auto) {
+  .signon-app input { padding: 14px 10px 10px 5px; }
+}
+.signon-app input:focus,
+.signon-app input:valid {
+ box-shadow: none;
+ outline: none;
+ background-position: 0 0;
+}
+.signon-app input:focus::-webkit-input-placeholder,
+.signon-app input:valid::-webkit-input-placeholder {
+ color: #306AA8;
+ font-size: 14px;
+ -webkit-transform: translateY(-20px);
+ transform: translateY(-20px);
+ visibility: visible !important;
+ border-bottom: 0;
+ -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+.signon-app button {
+  border-radius: 0!important; border-bottom: 2px solid #04729E;
+  transition:0.2s ease all;
+}
+
+.signon-app button:hover {
+  -webkit-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.signon-app .btn-primary {
+    color: #fff;
+    background-color: #306AA8;
+    border-color: #008bc3;
+	border-radius:25px!important;
+}
+
+html,
+body,
+.body-content{
+	height: 100%;
+}
+.body-content{
+	background: url(https://s-aaa-acg.idm.stg.covapp.io/img/bg/sso-bg.png) 0 0px repeat-x;
+}
+header{background: none;}
+.primary-header .row .logo {
+    background: url(/img/logo/aaa_117x70.png) 0 0 no-repeat;
+    height: 76px;
+    width: 117px;
+    margin: 10px 0 0 0;
+}
+
+/* Header */
+.container-fluid {
+	background: #fff;
+}
+.primary-header .row .right-col .welcome-txt {
+	color: #4F4F4F;
+    font-family: 'helvetica neue',helvetica,arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+A.CovTopLinks {
+	color: #4F4F4F;
+}
+A.CovTopLinks:hover,
+A.CovTopLinks:focus { color: #397ECC; }
+/* Navbar (toolbar) color */
+.appTabsBg,
+.header_cell,
+.appTabsBg td,
+.x-toolbar-default,
+.toolbarbg,
+.x-toolbar,
+.x-toolbar-default {
+	border-color: transparent;
+	border-width: 0;
+	border-top: none;
+	border-bottom: none;
+	background: #176CAB!important; /* Old browsers */
+	background: -moz-linear-gradient(top, #176CAB 0%, #12609B 100%)!important; /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #176CAB 0%,#12609B 100%)!important; /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #176CAB 0%,#12609B 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#176CAB', endColorstr='#12609B',GradientType=0 )!important; /* IE6-9 */
+}
+.x-toolbar-default {background: none!important;}
+.appTabsBg td, .toolbarbg {background-image:none!important;}
+.x-toolbar-default { background:none!important; }
+
+/* Navbar hover */
+.x-toolbar-item:hover,
+.x-btn-default-toolbar-small-menu-active,
+.x-btn-center:hover  {
+	background-image: none !important;
+	background: #397ECC!important;
+    border-radius: 0!important;
+}
+
+.x-toolbar-item:hover {
+    background: #397ECC !important;
+    border: none !important;
+    border-radius: 0!important;
+}
+.x-btn-center:hover {
+    background: none!important;
+    border: none !important;
+}
+
+/* navmenu fonts */
+.x-btn-default-toolbar-small .x-btn-inner {
+    font-family: "Helvetica Neue",helvetica, arial, verdana, sans-serif !important;
+}
+
+/* Page title font */
+.pageTitle {
+	font-family: 'helvetica neue',Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #4f4f4f;
+	font-weight: 400;
+}
+
+/*The login box*/
+.content {
+	background: #fff;
+	height: 0px;
+}
+
+/* CCA Content */
+.sectionHeader,
+html .sectionHeader {
+	/*background: #e0edfc url(/images/sectionheader_bg.png) 0 0 repeat-x;*/
+	background: linear-gradient(to bottom, #D9F1FF, #A4C1D2);
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+	text-transform: capitalize;
+}
+
+td.sectionHeader table {
+    background: linear-gradient(to bottom, #D9F1FF, #A4C1D2);
+}
+.columnHeader,
+.columnHeader1 {
+	color: #002A8E;
+}
+.tableDataUnderscore, .tableDataUnderscoreAlt {
+	border: none;
+}
+.tableDataTitleReq {
+    background-color: #982386;
+}
+#Migoicons {
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px #666;
+}
+.buttonWide,
+.buttonWideOn,
+.buttonWideOn225,
+.buttonOn,
+.button,
+.buttonExtWide,
+.buttonNarrow,
+.buttonNarrowOn,
+.buttonWidest,
+.buttonSuperWideOn,
+.buttonWidestOn,
+.buttonGO {
+	background: #00669E!important;
+    height: 28px!important;
+    margin: 3px;
+    border-radius: 0!important;
+    padding: 0 10px!important;
+    width: auto!important;
+}
+.steps {
+    font-size: 14px!important;
+    color: #666;
+    font-weight: 400;
+    padding-bottom: 3px;
+}
+.tableDataAlertNeg {background-color: red!important;}
