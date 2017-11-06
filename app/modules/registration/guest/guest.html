@@ -1,0 +1,107 @@
+<ng-form name="user" novalidate>
+  <!-- First row -->
+  <div class="cui-wizard__field-row">
+    <!-- First Name -->
+    <div class="cui-wizard__field-container cui-wizard__field-container--half">
+      <label for="user-name-given">*&nbsp;{{'cui-first-name' | translate}}</label>
+      <div class="cui-error" ng-messages="user.firstName.$error" ng-if="user.firstName.$dirty">
+        <div class="cui-error__message" ng-message="required">{{'cui-this-field-is-required' | translate}}</div>
+      </div>
+      <input type="text" name="firstName" class="cui-input" ng-required="true" ng-model="userWalkup.user.name.given"/>
+    </div>
+  </div>
+  <div class="cui-wizard__field-row">
+      <!-- Last Name -->
+    <div class="cui-wizard__field-container cui-wizard__field-container--half">
+      <label for="user-name-surname"> &nbsp;MI</label>
+      <div class="cui-error" ng-messages="user.lastNames.$error" ng-if="user.lastNames.$dirty">
+        <div class="cui-error__message" ng-message="required">{{'cui-this-field-is-required' | translate}}</div>
+      </div>
+      <input type="text" ng-model="userWalkup.user.name.surnames" name="lastNames" class="cui-input" ng-required="true"/>
+    </div>
+  </div>
+   <div class="cui-wizard__field-row">
+      <!-- Last Name -->
+     <div class="cui-wizard__field-container cui-wizard__field-container--half">
+      <label for="user-name-surname">*&nbsp;{{'cui-last-name' | translate}}</label>
+      <div class="cui-error" ng-messages="user.lastName.$error" ng-if="user.lastName.$dirty">
+        <div class="cui-error__message" ng-message="required">{{'cui-this-field-is-required' | translate}}</div>
+      </div>
+      <input type="text" ng-model="userWalkup.user.name.surname" name="lastName" class="cui-input" ng-required="true"/>
+    </div>
+  </div>
+    <!-- Third row -->
+  <div class="cui-wizard__field-row">
+
+    <!-- Address 1 -->
+    <div class="cui-wizard__field-container cui-wizard__field-container--half">
+      <label>*&nbsp;{{"cui-street-address" | translate}}</label>
+      <div class="cui-error" ng-messages="user.address1.$error" ng-if="user.address1.$dirty">
+        <div class="cui-error__message" ng-message="required">{{'cui-this-field-is-required' | translate}}</div>
+      </div>
+      <input type="text" ng-model="userWalkup.user.addresses[0].streets[0]" class="cui-input" name="address1" ng-required="true">
+    </div>
+         <div class="cui-wizard__field-container cui-wizard__field-container--half">
+      <label for="user-name-surname"> &nbsp;Apt/Unit #</label>
+      <div class="cui-error" ng-messages="user.lastName.$error" ng-if="user.lastName.$dirty">
+        <div class="cui-error__message" ng-message="required">{{'cui-this-field-is-required' | translate}}</div>
+      </div>
+      <input type="text" ng-model="userWalkup.user.name.surname" name="lastName" class="cui-input" ng-required="true"/>
+    </div>
+  </div>
+
+    <div class="cui-wizard__field-row">
+          <!-- City -->
+    <div class="cui-wizard__field-container cui-wizard__field-container--half">
+      <label>*&nbsp;{{"cui-city" | translate}}</label>
+      <input type="text" ng-model="userWalkup.user.addresses[0].city" class="cui-input" name="city"/>
+    </div>
+    <!-- Address 2 -->
+        <div class="cui-wizard__field-container cui-wizard__field-container--half">
+      <label>*&nbsp;{{"cui-state" | translate}}</label>
+      <input type="text" ng-model="userWalkup.user.addresses[0].state" class="cui-input" name="state"/>
+    </div>
+
+
+  </div>
+    <div class="cui-wizard__field-row">
+    <!-- Postal Code -->
+    <div class="cui-wizard__field-container cui-wizard__field-container--half">
+      <label for="postal-code">*&nbsp;ZIP Code</label>
+    <div class="cui-error" ng-messages="user.addresses[0].postal.$error" ng-if="user.addresses[0].postal.$dirty">
+        <div class="cui-error__message" ng-message="required">{{'cui-this-field-is-required' | translate}}</div>
+      </div>
+      <input type="text" ng-model="userWalkup.user.addresses[0].postal" class="cui-input" name="postal" ng-required="true"/>
+    </div>
+  </div>
+
+
+  <!-- Second row -->
+  <div class="cui-wizard__field-row">
+
+    <!-- Email -->
+    <div class="cui-wizard__field-container cui-wizard__field-container--half">
+      <label>*&nbsp;User Name</label>
+      <div class="cui-error" ng-messages="user.email.$error" ng-if="user.email.$dirty">
+        <div class="cui-error__message" ng-message="required">{{'cui-this-field-is-required' | translate}}</div>
+      </div>
+      <input type="text" name="email" class="cui-input" custom-error="userWalkup.customErrors.email" ng-required="true" ng-model="userWalkup.user.email" ng-blur="userWalkup.checkDuplicateEmail(userWalkup.user.email)"/>
+    </div>
+  </div>
+
+  <div class="cui-wizard__field-row">
+    <!-- Timezone -->
+    <div class="cui-wizard__field-container cui-wizard__field-container--half">
+        <label for="timezone">*&nbsp;Create Password</label>
+        <input type="text" ng-model="userWalkup.user.membership" class="cui-input" name="membership" ng-required="true"/>
+    </div>
+  <!-- Membership Id -->
+    <div class="cui-wizard__field-container cui-wizard__field-container--half">
+    <label for="membershipA">*&nbsp;Confirm Password</label>      
+        <div class="cui-error" ng-messages="user.membershipA.$error" ng-if="user.membershipA.$dirty">
+          <div class="cui-error__message" ng-message="required">{{'cui-this-field-is-required' | translate}}</div>
+        </div>
+    <input type="text" ng-model="userWalkup.user.membershipA" class="cui-input" name="membershipA" ng-required="true"/>
+    </div>
+  </div>
+</ng-form>

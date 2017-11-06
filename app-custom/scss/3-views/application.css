@@ -1,0 +1,1857 @@
+.Application *::-ms-clear {
+  display: none!important;
+}
+/*remove spinners*/
+.Application input[type=number]::-webkit-inner-spin-button,
+.Application input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Application .lock {
+  background-image: url(/assets/Images/Icons/lock.png);
+  width: 13px;
+  height: 17px;
+  display: inline-block;
+  top: 1px;
+  position: relative;
+  right: 5px;
+}
+.Application .edit a .icon {
+  background-image: url(/assets/Images/Icons/edit.png);
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+}
+.Application .edit,
+.Application .email-cta {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  position: absolute;
+  padding-left: 10px;
+  top: 8px;
+  color: #317ece;
+}
+.Application .spinner {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+}
+.Application .alert-text {
+  color: #e00000;
+}
+.Application {
+  width: 100%;
+}
+.Application header,
+.Application nav,
+.Application section,
+.Application article,
+.Application aside,
+.Application footer {
+  display: block;
+}
+.Application .Application .has-error .help-block,
+.Application .has-error .control-label,
+.Application .has-error .radio,
+.Application .has-error .checkbox,
+.Application .has-error .radio-inline,
+.Application .has-error .checkbox-inline,
+.Application .has-error.radio label,
+.Application .has-error.checkbox label,
+.Application .has-error.radio-inline label,
+.Application .has-error.checkbox-inline label {
+  color: #cc0000;
+}
+.Application .has-error .form-control {
+  border-color: #cc0000;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.Application .has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+.Application .has-error .input-group-addon {
+  color: #cc0000;
+  background-color: #f2dede;
+  border-color: #cc0000;
+}
+.Application .has-error .form-control-feedback {
+  color: #cc0000;
+}
+.Application .form-group .input-label .informational {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+}
+.Application .primary-headline h3 {
+  color: #317ece;
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  height: 30px;
+}
+.Application .has-success .help-block,
+.Application .has-success .control-label,
+.Application .has-success .radio,
+.Application .has-success .checkbox,
+.Application .has-success .radio-inline,
+.Application .has-success .checkbox-inline,
+.Application .has-success.radio label,
+.Application .has-success.checkbox label,
+.Application .has-success.radio-inline label,
+.Application .has-success.checkbox-inline label {
+  color: #50ab2c;
+}
+.Application .has-success .form-control {
+  border-color: #50ab2c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.Application .has-success .form-control:focus {
+  border-color: #50ab2c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #50ab2c;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #50ab2c;
+}
+.Application .has-success .input-group-addon {
+  color: #50ab2c;
+  background-color: transparent;
+  border-color: #50ab2c;
+}
+.Application .has-success .form-control-feedback {
+  color: #50ab2c;
+}
+.Application a {
+  font-size: .8rem;
+}
+.Application .panel.panel-default {
+  -webkit-box-shadow: #B8B8B8 0 4px 9px;
+  -moz-box-shadow: #B8B8B8 0 4px 9px;
+  box-shadow: #B8B8B8 0 4px 9px;
+  margin: 20px 0 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+.Application section fieldset legend {
+  width: auto;
+}
+/**M O D A L  S T U F F**/
+.Application .modal .modal-dialog .modal-content header.modal-header .modal-title span {
+  font-family: Arial,Helvetica;
+  font-weight: 200;
+  position: absolute;
+  font-size: 20px;
+  top: 0;
+  right: -17px;
+  padding: 0 15px;
+}
+.Application .modal .modal-dialog .modal-header,
+#mainContent #body .page-content .modal-dialog .modal-header {
+  padding: 6px 15px 4px;
+}
+.Application .modal .modal-dialog .modal-header,
+#mainContent #body .page-content .modal-header {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  background-color: #317ece;
+  font-weight: bold;
+}
+.Application .modal.red-treatment .modal-dialog .modal-header {
+  background-color: #cc0000 !important;
+}
+.Application .modal .modal-header .modal-title button,
+#mainContent #body .page-content .modal-header .modal-title button {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 28px;
+  margin-top: 0;
+  opacity: 1;
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  top: 1px;
+  cursor: pointer;
+}
+.Application .modal .modal-header h2,
+#mainContent #body .page-content .modal-header h2 {
+  color: #ffffff;
+}
+.Application .modal .modal-header h2,
+#mainContent #body .page-content .modal-header h2 {
+  color: #ffffff;
+}
+.Application .modal .page-content .modal-body,
+#mainContent #body .page-content .modal-body {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  color: #666666;
+}
+.Application .modal .modal-body ul li,
+#mainContent #body .page-content .modal-body ul li {
+  padding: 0px;
+  margin: 0px 0px 8px 15px;
+  list-style-position: initial;
+  list-style-image: none;
+  list-style-type: none;
+}
+.Application .modal .modal-body h2,
+#mainContent #body .page-content .modal-body h2 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+}
+.Application .modal .modal-body,
+#mainContent #body .page-content .modal-body {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 8px 15px;
+  list-style-position: initial;
+  list-style-image: none;
+  list-style-type: none;
+}
+.Application .modal .modal-footer button,
+#mainContent #body .page-content .modal-footer button {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #317ece;
+  color: #ffffff;
+  border: solid 1px #317ece;
+}
+.Application .modal.red-treatment .modal-footer button {
+  background-color: #cc0000 !important;
+  border-color: #cc0000 !important;
+  margin-bottom: 5px!important;
+}
+.Application .modal.red-treatment .modal-footer button:hover {
+  background-color: #e00000 !important;
+  border-color: #e00000 !important;
+}
+.Application .modal .modal-footer button:hover,
+#mainContent #body .page-content .modal-footer button:hover {
+  background-color: #2c68ab;
+  border: solid 1px #2c68ab;
+  color: #ffffff;
+}
+/*E N D  M O D A L  S T U F F*/
+.Application .description-text-lg {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Application .description-text {
+  padding-bottom: 15px;
+}
+.Application .image-wrapper img {
+  max-height: 100%;
+  max-width: 100%;
+}
+/**P A N E L  S T U F F**/
+.Application h1 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 43px;
+  color: #2c68ab;
+}
+.Application h2 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+}
+.Application .enteredAmountTitle {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.Application label.enteredAmountLabel {
+  font-weight: normal;
+}
+.Application .panel .panel-heading {
+  padding: 6px 15px 4px;
+}
+.Application .panel .panel-heading .faq a {
+  border: 1px solid #fff;
+  padding: 1px;
+}
+.Application .print {
+  color: #317ece;
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  padding: 10px 0;
+}
+.Application .print span::before {
+  content: url('/assets/images/Icons/print.png');
+}
+.Application .print a {
+  padding-left: 10px;
+}
+.Application > header {
+  padding-top: 11px;
+}
+.Application .panel-heading {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  background-color: #317ece;
+  font-weight: bold;
+}
+.Application .panel-heading.error-message {
+  background-color: #cc0000;
+}
+.Application section .panel > .panel-heading > div.panel-title {
+  display: inline-block;
+  float: left;
+}
+.Application section .panel > .panel-heading > div.faq {
+  float: right;
+  display: inline-block;
+}
+.Application section .panel > .panel-heading > div.faq a {
+  color: #ffffff;
+}
+.Application .panel-heading h2 {
+  color: #ffffff;
+}
+/*E N D  P A N E L  S T U F F*/
+.Application .description-text-lg {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+}
+/*RadioButton List*/
+.Application input[type="radio"] {
+  height: 16px;
+  width: 16px;
+}
+.Application ul.RadioListSpacing li {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 0;
+  margin: 0 0 24px 20px;
+  list-style-position: inherit;
+  list-style-image: none;
+  list-style-type: none;
+}
+.Application ul.RadioListSpacing input {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  margin-top: 0.5%;
+}
+.Application ul.RadioListSpacing label {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  padding-top: 3px;
+}
+/*End RadioButton List*/
+/*Next and Continue*/
+.Application .button.blue {
+  background-color: #317ece;
+  color: #ffffff;
+  border: solid 1px #317ece;
+}
+.Application .button {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.Application .panel-action-container a.button {
+  padding: 6px 0;
+  cursor: pointer;
+}
+.Application .panel-action-container a.button:hover,
+.Application .panel-action-container a.button:focus {
+  background-color: #2c68ab;
+  border: solid 1px #2c68ab;
+  color: #ffffff;
+  text-decoration: none!important;
+}
+.Application .panel-action-container .next .glyphicon {
+  padding-left: 12px;
+}
+.Application .panel-action-container .next {
+  background-color: #317ece;
+  color: #ffffff;
+  border: solid 1px #317ece;
+}
+.Application .panel-action-container .previous,
+.Application .btn-group button {
+  background-color: #ffffff;
+  color: #317ece;
+  border: solid 1px #317ece;
+}
+.Application .panel-action-container .previous .glyphicon {
+  padding-right: 12px;
+}
+.Application .panel-action-container > div:nth-child(1) {
+  margin-bottom: 15px;
+}
+.Application .panel-action-container > .cancel {
+  margin-top: 15px;
+}
+.Application .panel-action-container {
+  text-align: center;
+  padding-top: 35px;
+}
+.panel-action-container::after {
+  clear: both;
+}
+/*End Next and Continue*/
+/*Segmented Controls*/
+.Application .btn-group .btn.active,
+.Application .btn-group .btn:hover,
+.Application .segmented-controls .btn.active,
+.Application .segmented-controls .btn:hover {
+  background-color: #2c68ab;
+  color: #ffffff;
+  border: solid 1px #2c68ab;
+}
+.Application .btn-group .btn:hover,
+.Application .segmented-controls .btn:hover {
+  background-color: #2c68ab;
+  color: #ffffff;
+  border: solid 1px #2c68ab;
+}
+.Application .btn-group .btn,
+.Application .segmented-controls .btn {
+  background-color: transparent;
+  color: #317ece;
+  border: solid 1px #317ece;
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 5px;
+}
+.Application .segmented-controls {
+  padding-bottom: 15px;
+}
+.Application .segmented-controls input[type="radio"] {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+.Application .segmented-controls label {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.Application .segmented-control-heading {
+  padding-bottom: 5px;
+}
+/*Error Message*/
+.Application .ErrorMsg,
+.Application .error {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #cc0000;
+}
+/**Form Entry**/
+.Application .form-group.user-input span.spacer {
+  width: 34px;
+  text-align: center;
+  /* padding: 0; */
+  /* vertical-align: middle; */
+  padding: 5px 0;
+  border-left: none;
+  border-right: none;
+  background-color: #ececec;
+}
+.Application .form-group.user-input .aspLabel,
+.Application .form-group.user-input label {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+.Application .form-group.user-input .aspLabel span {
+  float: left;
+}
+.Application .form-control.form-control-inline {
+  display: inline!important;
+}
+.Application .user-input select,
+.Application .user-input select {
+  height: 34px!important;
+  display: inline-block;
+  width: 100%;
+  height: 31px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.Application .phone-block input {
+  display: inline;
+}
+.Application .phone-block span {
+  padding-left: 3px;
+}
+.Application .form-group.user-input select,
+.Application .form-group.user-input input {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+.Application .mandatory,
+.Application .required {
+  color: #cc0000;
+}
+.Application .descriptionParagraph {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+}
+.Application .disclaimer,
+.Application .instruction {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+  color: #666666;
+  padding-top: 32px;
+}
+.Application .mandatory-text {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #cc0000;
+  padding-top: 15px;
+}
+.Application .termsAndConditions,
+.Application .termsAndConditions span,
+.Application .termsAndConditions a {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+/***J O I N  E N T R Y***/
+/***M E M B E R S H I P  C H O I C E***/
+#ArrowDiv {
+  display: none;
+}
+.Application .PlanCardDiv {
+  margin-bottom: 45px;
+}
+.Application .PlanCardDetail,
+.Application .PlanCardDetail .PlanCardDetailText .PricingDescription,
+.Application .PlanCardDetail .PlanCardDetailText,
+.Application .subTitleChoosePlan {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  color: #666666;
+}
+.Application .PlanDetailsTextDiv {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  line-height: 24px;
+}
+.Application .PlanDetailsTextDiv b {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  line-height: 24px;
+}
+.Application .PlanChooseLargeCardImage {
+  height: inherit;
+  text-align: left;
+}
+.Application .MembershipComparePlansLink {
+  margin-top: 15px;
+}
+.Application .MembershipRadioClass {
+  padding: 30px 10px 0 15px;
+  text-align: center;
+}
+.Application #PaymentRenewalOptions .row {
+  padding-bottom: 24px;
+}
+.Application #PaymentAutoBill {
+  margin-top: 0px;
+  padding-left: inherit;
+}
+.Application .PaymentTypeChoices {
+  padding-left: 0;
+}
+.Application .PlanDetailsDisclaimer {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+  color: #666666;
+}
+.Application .PayInfoSubmitOnce {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  text-align: left;
+}
+.Application .PayInfoSSL {
+  margin-top: 0;
+  padding-top: 0;
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  text-align: left;
+}
+/*J O I N  M  E M B E R  I N F O*/
+.Application .HowManyAssociatesText {
+  padding-bottom: 17px;
+}
+.Application .HowManyAssociatesText,
+.Application .ellAssociate-Anchor {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+.Application #ASVModal,
+.Application #AVSModalInvalidAddress {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+.Application .AddAssociate {
+  padding-top: 7px;
+  padding-bottom: 8px;
+}
+.Application .AddAssociate > div:first-child {
+  padding-bottom: 10px;
+}
+.Application .Join-Pricing .Description,
+.Application .Join-Pricing .Price {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  padding-right: 0;
+}
+.Application .Join-Pricing .MembershipPricingInfo .row {
+  padding-bottom: 12px;
+}
+.Application .associateInfo {
+  padding-bottom: 0;
+}
+/*fixing what bootstrap broke*/
+#header #Navigation ul li div {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+body {
+  font-size: 11px;
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  margin: 0px;
+  color: #666666;
+}
+/*Override*/
+.Application #AddAssociateContainer {
+  background-color: #FFF;
+  padding: 0px;
+  width: inherit;
+}
+#Navigation .Application #ContactInfoContainer {
+  padding: 0;
+  margin: 0 -15px;
+}
+.Application .rsdate {
+  margin-bottom: 15px;
+}
+.Application .rsdate select,
+.Application .rsdate input,
+.Application rsphone input,
+.tempno input {
+  text-align: center;
+}
+.Application #ContactInfoContainer {
+  padding: 0;
+  margin: 0 -15px;
+}
+.Application a {
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.Application a:link {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.Application a:visited {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.Application a:hover {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: underline;
+}
+.Application a:active {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.Application h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.Application h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+.Application h2 {
+  color: inherit;
+  font-size: inherit;
+}
+.Application h3 {
+  color: inherit;
+  font-size: inherit;
+}
+.Application h4 {
+  color: inherit;
+  font-size: inherit;
+}
+.Application h5 {
+  color: inherit;
+  font-size: inherit;
+}
+.Application h2 a:link,
+.Application h2 a:visited,
+.Application h2 a:hover,
+.Application h2 a:active {
+  color: inherit;
+  font-size: inherit;
+}
+.Application h4 a:link,
+.Application h4 a:visited,
+.Application h4 a:hover,
+.Application h4 a:active {
+  color: inherit;
+  font-size: inherit;
+}
+body .Application {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  margin: 0px;
+  color: #666666;
+}
+.Application dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+.Application img {
+  border: 0px;
+}
+.Application form {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.Application ol,
+ul,
+li {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+/* Helper Styles */
+.Application .fr {
+  display: inline;
+  float: right;
+}
+.Application .clr {
+  clear: both;
+}
+.Application .blk {
+  display: block;
+}
+.Application .Application .w100 {
+  width: 100%;
+}
+.Application .Application .bold {
+  font-weight: bold;
+}
+.Application .center {
+  text-align: center;
+}
+.Application .left {
+  text-align: left;
+}
+.Application .underline {
+  text-decoration: underline;
+}
+.Application span.symbol {
+  font-size: 8px;
+  vertical-align: super;
+}
+.Application .pad29 {
+  padding: 29px;
+}
+.Application .hide {
+  display: none;
+}
+.Application .ErrorText {
+  color: #cc0000;
+  padding: inherit;
+}
+.Application .InformationText {
+  color: blue;
+  font-weight: bold;
+}
+/***M E M B E R S H I P  P A Y M E N T*/
+.Application .PaymentTypeChoices label {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+.Application #PaymentAutoBill .sectionTitle {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+.Application #PaymentRenewalOptions label {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Application .creditRadios label {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Application .JoinPayCard {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Application .JoinPayCard .MembershipLevelChosen {
+  padding-bottom: 12px;
+}
+.Application .JoinPayCard .JoinMembershipChange {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  display: none;
+}
+.Application .PayNamePriceSummary {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.Application .PayNamePriceSummary .MemberDetails {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+.Application #EFTDiv {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+}
+/***Insurance Payment***/
+button.payment-amount-select {
+  white-space: normal;
+}
+button.payment-select {
+  min-width: 85px;
+  white-space: normal;
+}
+button.address-select.mailing {
+  min-width: 152px;
+}
+button.address-select.new {
+  min-width: 135px;
+}
+.Application.Payment-Info .verify-policy-section,
+.Application.Payment-Info .verify-email-section {
+  padding-bottom: 25px;
+}
+.Application.Payment-Info .verify-email-section {
+  padding-top: 15px;
+}
+.Application.Payment-Info .verify-email-section .primary-headline {
+  position: relative;
+}
+.Application.Payment-Info .verify-panel .primary-headline h3 {
+  display: inline-block;
+  max-width: 250px;
+}
+.Application.Payment-Info .verify-panel .payment-label,
+.Application.Payment-Info .confirmation-panel .payment-label {
+  max-width: 210px;
+  padding-right: 0;
+}
+.Application.Payment-Info .confirmation-panel .payment-label {
+  max-width: 260px;
+  padding-right: 0;
+}
+.Application.Payment-Info .verify-panel .row,
+.Application.Payment-Info .confirmation-panel .row {
+  line-height: 20px;
+  padding-bottom: 4px;
+}
+/***********************/
+.Application .credit-card-block {
+  border: 1px solid #000;
+  display: block;
+  width: 100%;
+  height: 34px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  outline-color: #4d90fe;
+}
+.Application fieldset.credit-card-grp .ccicon {
+  top: 7px;
+  right: 22px;
+}
+.Application .credit-card-block input {
+  border: none;
+  padding: 5px 11px;
+  margin: 1px;
+  outline-color: transparent;
+  height: 32px;
+}
+.Application .ccImg {
+  width: 24px;
+  height: 20px;
+  margin: 0 2px 3px;
+  transition: width 0.5s;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Application .ccImgWrapper {
+  position: relative;
+}
+.Application .ccicon {
+  transition: width 0.5s;
+  position: absolute;
+  top: 8px;
+  right: 26px;
+}
+.Application .ccImg.visa {
+  background-image: url('/assets/images/Financial/Payment/cc_visa.png');
+}
+.Application .ccImg.mastercard {
+  background-image: url('/assets/images/Financial/Payment/cc_mastercard.png');
+}
+.Application .ccImg.amex {
+  background-image: url('/assets/images/Financial/Payment/cc_amex.png');
+}
+.Application .ccImg.discover {
+  background-image: url('/assets/images/Financial/Payment/cc_discover.png');
+}
+.Application #CreditCardDiv .creditCardWrapper {
+  max-width: 295px;
+}
+/***Control RTP*/
+.Application .segmented-controls input[type='radio']:checked {
+  background-color: #2c68ab;
+  color: #fff;
+  border: solid 1px #2c68ab;
+}
+/**Join Error Stuff*/
+.Application.ErrorInfo a {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+}
+/*** J O I N  M A I L I N G ***/
+.Application.JoinMailing .tempno input {
+  width: 52px;
+}
+/****O V E R R I D I N G  S T U F F***/
+#AddressBox div {
+  margin: initial;
+}
+#AddressBox div.form-group {
+  margin-bottom: 15px;
+}
+.body-inner.no-left-nav {
+  background: none!important;
+}
+.Application .ChooseCardImage {
+  padding: 0;
+}
+.Application .CWSNameLastName {
+  width: inherit;
+}
+.Application .FormFieldBox {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: inherit;
+  height: inherit;
+}
+.Application #CreditCardDiv {
+  padding: 0;
+}
+.Application .center-block {
+  float: none;
+}
+/***General Stuff***/
+.no-pad {
+  padding: 0!important;
+}
+.no-right-pad {
+  padding-right: 0 !important;
+}
+.no-left-pad {
+  padding-left: 0 !important;
+}
+.no-left-margin {
+  margin-left: 0!important;
+}
+.Application a.link {
+  color: #317ece;
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+.Application a.link.small {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+}
+.Application .small {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+}
+.Application select {
+  padding-left: 8px;
+}
+@media only screen {
+  .printonly {
+    display: none;
+  }
+}
+@media print {
+  .printonly {
+    display: block;
+  }
+  .Application.Payment-Info {
+    display: none;
+  }
+  #header,
+  #footer,
+  .emailFooter,
+  .links-logo-container,
+  .footer {
+    display: none!important;
+  }
+}
+@media only screen and (max-width: 3000px) {
+  .form-control-group {
+    margin-left: 15px;
+    float: left;
+    position: inherit;
+  }
+  .Application {
+    font-size: 1.0rem;
+    padding: 30px;
+  }
+  .Application h1 {
+    font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 43px;
+    color: #2c68ab;
+  }
+  .Application .ccImgWrapper {
+    float: right;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .form-control-group {
+    margin-left: 15px;
+    float: left;
+    position: inherit;
+  }
+  .Application {
+    font-size: 1.0rem;
+    padding: 30px;
+  }
+  .Application h1 {
+    font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 43px;
+    color: #2c68ab;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .form-control-group {
+    margin-left: 15px;
+    float: left;
+    position: inherit;
+  }
+  .Application {
+    font-size: 1.0rem;
+    padding: 30px;
+  }
+  .Application h1 {
+    font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 43px;
+    color: #2c68ab;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-sm-offset-1_5 {
+    margin-left: 12.5%;
+  }
+  .Application h1 {
+    font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 43px;
+    color: #2c68ab;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .form-control-group {
+    margin-left: 0px;
+    float: left;
+    position: inherit;
+  }
+  .Application {
+    font-size: 1.0rem;
+    padding: 10px;
+  }
+  .panel-body .panel-body {
+    padding: 15px 0;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  .Application h1 {
+    font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2c68ab;
+  }
+}
+@media only screen and (max-width: 555px) {
+  .Application .ccImgWrapper {
+    display: block;
+    top: 4px;
+  }
+  .Application .form-group.user-input.fmt-ccno label {
+    max-width: 347px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .form-control-group {
+    margin-left: 0px;
+    float: left;
+    position: inherit;
+  }
+  .Application {
+    font-size: 1.0rem;
+    padding: 10px 0 0 0;
+  }
+  .panel-body .panel-body {
+    padding: 15px 10px;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  .Application h1 {
+    font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2c68ab;
+  }
+  /* .form-group label{line-height:22px;}*/
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .Application {
+    padding: 0;
+  }
+  .form-control-group {
+    margin-left: 0px;
+    float: left;
+    position: inherit;
+  }
+  /*.payment-navigation-container, .the-progress-container {display:none;}*/
+  .Application {
+    font-size: .7rem;
+  }
+  .panel-body .panel-body {
+    padding: 15px 5px;
+  }
+  .form-group {
+    margin-bottom: 8px;
+  }
+  .Application h1 {
+    font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2c68ab;
+  }
+}
+/**************************M E S S A G E  B L O C K**************************/
+.Application .message-block {
+  background-color: #ececec;
+  position: relative;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  display: flex;
+  padding: 15px!important;
+}
+.Application .message-block.error-message .message-icon {
+  background-image: url("/assets/images/icons/error2x.png");
+}
+.Application .message-block.warning-message .message-icon {
+  background-image: url("/assets/images/icons/warning2x.png");
+}
+.Application .message-block.success-message .message-icon {
+  background-image: url("/assets/images/icons/success2x.png");
+}
+.Application .message-block .message-icon {
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 58px;
+  height: 58px;
+}
+.Application .confirmation-panel .message-block.error-message {
+  margin-bottom: -15px;
+}
+.Application .message-block.error-message .message-text .primary {
+  color: #e00000;
+}
+.Application .message-block .message-text .primary {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  color: #666666;
+}
+.Application .message-block .message-text .secondary {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+}
+/***********************E N D  M E S S A G E  B L O C K**********************/
+.white-text {
+  color: #ffffff;
+}
+.back-white {
+  background-color: #ffffff;
+}
+.back-red1 {
+  background-color: #cc0000;
+}
+.back-red2 {
+  background-color: #e00000;
+}
+.back-blue1 {
+  background-color: #2c68ab;
+}
+.back-blue2 {
+  background-color: #317ece;
+}
+.back-trans {
+  background-color: transparent;
+}
+.gray {
+  color: #666666;
+}
+.blue1-text {
+  color: #2c68ab;
+}
+.blue2-text {
+  color: #317ece;
+}
+.border-blue2 {
+  border: solid 1px #317ece;
+}
+.border-blue1 {
+  border: solid 1px #2c68ab;
+}
+.mission {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+}
+.verdana {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+}
+.bold {
+  font-weight: bold;
+}
+.regular {
+  font-weight: normal;
+}
+.italic {
+  font-style: italic;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.bl1 {
+  color: #2c68ab;
+}
+.bl2 {
+  color: #317ece;
+}
+.bl3 {
+  color: #74abe6;
+}
+.bl4 {
+  color: #98caff;
+}
+.rd1 {
+  color: #cc0000;
+}
+.rd2 {
+  color: #e00000;
+}
+.or1 {
+  color: #ff8b33;
+}
+.yl1 {
+  color: #ffb108;
+}
+.gn1 {
+  color: #50ab2c;
+}
+.gn2 {
+  color: #5dce31;
+}
+.wh1 {
+  color: #ffffff;
+}
+.gy1 {
+  color: #fafafa;
+}
+.gy2 {
+  color: #ececec;
+}
+.gy3 {
+  color: #d4d4d4;
+}
+.gy4 {
+  color: #b8b8b8;
+}
+.gy5 {
+  color: #999999;
+}
+.gy6 {
+  color: #666666;
+}
+.bk1 {
+  color: #000000;
+}
+.t1 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 44px;
+  line-height: 40px;
+}
+.t2 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 43px;
+}
+.t3 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 28px;
+}
+.t4 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+}
+.t5 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+}
+.t6 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+}
+.t7 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
+}
+.t7a {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+}
+.t7b {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
+.t8 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+}
+.t9 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+.t10 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+}
+.t11 {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+.t12 {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+.t13 {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+}
+.t14 {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+.t15 {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 17px;
+}
+.t16 {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+}
+.t17 {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 17px;
+}
+/*Payment Stuff*/
+/******Horizontal scroll**/
+.Application .viewport-body {
+  position: absolute;
+}
+.Application .viewport-body > section {
+  display: inline-block;
+  width: 20%;
+}
+.Application .viewport {
+  width: 100%;
+  overflow: hidden;
+}
+.Application .viewport-body {
+  width: 510%;
+  position: relative;
+}
+.Application .viewport-body > section {
+  float: left;
+  width: 100%;
+  margin-right: 10px;
+}
+.Application .the-progress-container {
+  padding-top: 15px;
+}
+.Application div.the-progress {
+  height: 26px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  border: 2px solid #FFFFFF;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  border-radius: 26px;
+  background-color: #ECECEC;
+  background-size: cover;
+  -webkit-box-shadow: #B8B8B8 0 0 8px;
+  -moz-box-shadow: #B8B8B8 0 0 8px;
+  box-shadow: #B8B8B8 0 0 8px;
+}
+.Application div.the-progress-bar {
+  background: #B8B8B8;
+  height: 26px;
+  line-height: 26px;
+  text-align: right;
+}
+.Application div.the-progress-bar span {
+  color: #fff;
+}
+.Application .payment-navigation-container {
+  text-align: center;
+  margin-bottom: -15px;
+}
+.Application .payment-navigation-container ul {
+  width: 100%;
+  text-align: justify;
+}
+.Application .payment-navigation-container ul::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+.Application .payment-navigation-container ul li {
+  display: inline-block;
+  width: 25%;
+  margin: 0!important;
+  padding: 0!important;
+  text-align: center;
+  float: left;
+}
+.Application .payment-navigation-container ul li.nolink a:hover {
+  text-decoration: none;
+  cursor: default;
+}
+.Application .payment-navigation span {
+  font-size: inherit;
+}
+.Application .payment-navigation.active {
+  font-weight: bold;
+}
+.Application .payment-navigation.active a {
+  padding-right: 9px;
+}
+/*Payment -payment amount*/
+#enter-amount-wrapper {
+  padding-top: 15px;
+}
+/*Formatting widths*/
+/*Policy Number*/
+.Application .form-group.user-input.fmt-policy-number label,
+.Application .form-group.user-input.fmt-policy-number div:nth-child(2) div {
+  max-width: 220px;
+}
+/*Email*/
+.Application .form-group.user-input.fmt-email label,
+.Application .form-group.user-input.fmt-email div:nth-child(2) div,
+.Application .form-group.user-input.fmt-email input,
+.Application #verify-input-email-group > div {
+  max-width: 370px;
+}
+/*Name*/
+.Application .form-group.user-input.fmt-name label,
+.Application .form-group.user-input.fmt-name div:nth-child(2) {
+  max-width: 350px;
+}
+/*Credit Card Number*/
+.Application .form-group.user-input.fmt-ccno div:nth-child(3) {
+  max-width: 350px;
+}
+/*Expiration Date*/
+.Application .form-group.user-input.fmt-exp-date div:nth-child(2) > * {
+  display: inline;
+  float: left;
+}
+.Application .form-group.user-input.fmt-exp-date div:nth-child(2) input {
+  max-width: 46px;
+}
+.Application .form-group.user-input.fmt-exp-date div:nth-child(2) input:nth-child(1) {
+  border-radius: 4px 0 0 4px;
+}
+.Application .form-group.user-input.fmt-exp-date div:nth-child(2) span {
+  display: inline;
+  height: 34px;
+  padding: 6px 15px;
+  float: left;
+  border-radius: 0 0 0 0;
+}
+.Application .form-group.user-input.fmt-exp-date div:nth-child(2) input:nth-child(3) {
+  border-radius: 0 4px 4px 0;
+}
+.Application .form-group.user-input.fmt-exp-date label,
+.Application .form-group.user-input.fmt-exp-date div:nth-child(2) div.error {
+  max-width: 195px;
+}
+/*CCV*/
+.Application .form-group.user-input.fmt-ccv div:nth-child(2) {
+  max-width: 180px;
+}
+/*Address*/
+.Application .form-group.user-input.fmt-address label,
+.Application .form-group.user-input.fmt-address div:nth-child(2) {
+  max-width: 370px;
+}
+/*City*/
+.Application .form-group.user-input.fmt-city div:nth-child(2) {
+  max-width: 200px;
+}
+/*State*/
+.Application .form-group.user-input.fmt-state div:nth-child(2) {
+  max-width: 85px;
+}
+/*Zip Code*/
+.Application .form-group.user-input.fmt-zip-code div:nth-child(2) {
+  max-width: 125px;
+}
+/*******************************FAQ**********************************/
+.FAQ .subhead {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 28px;
+}
+.FAQ .FAQList {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.FAQ .FAQList .FAQPanel {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+}
+.FAQ .FAQList .FAQPanel p {
+  line-height: inherit;
+}
+.FAQ .FAQList .FAQPanel:nth-child(even) .FAQQ {
+  background-color: #ececec;
+}
+.FAQ .FAQList .FAQPanel:nth-child(odd) .FAQQ {
+  background-color: #fafafa;
+}
+.FAQ .FAQList .FAQPanel .FAQA {
+  background-color: #ffffff;
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  line-height: 26px;
+  padding-left: 15px;
+}
+.FAQ .FAQList .FAQPanel .FAQQ {
+  color: #317ece;
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  padding-right: 40px;
+}
+.FAQ .FAQList .FAQPanel .FAQQ a:hover {
+  text-decoration: none;
+}
+.FAQ .FAQList .FAQPanel .FAQQ a::after {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  float: right;
+  content: "\e260";
+  left: 25px;
+}
+.FAQ .FAQList .FAQPanel .FAQQ a.collapsed::after,
+.FAQ .FAQList .FAQPanel .FAQQ a.collapsing::after {
+  position: relative;
+  content: "\e259";
+}
+.FAQ .FAQList .FAQPanel ul li {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0px;
+  margin: 0px 0px 8px 25px;
+  list-style-position: outside;
+  list-style-type: disc;
+  list-style-image: none;
+}
+/*MY Account*/
+.Application.MyAccount .MembershipInfo,
+.Application.MyAccount .InsuranceInfo {
+  padding: 5px 15px 0 15px;
+}
+.Application.MyAccount .userAction,
+.Application.MyAccount .userAction a,
+.Application.MyAccount .insLinkBtn,
+.Application.MyAccount .myInfo p,
+.Application.MyAccount .myInfo a,
+.Application.MyAccount .InsuranceInfoPanel,
+.Application.MyAccount .InsuranceInfoPanel a,
+.Application.MyAccount .MembershipInfo,
+.Application.MyAccount .MembershipInfo a {
+  font-family: 'Mission Gothic', 'Arial-Narrow', Arial;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+}
+.Application.MyAccount .userAction,
+.Application.MyAccount .userAction a,
+.Application.MyAccount .insLinkBtn,
+.Application.MyAccount .myInfo a {
+  line-height: 22px;
+}
+.Application.MyAccount a.inherit {
+  line-height: inherit;
+}
+@media (max-width: 767px) {
+  .Application.MyAccount .userAction,
+  .Application.MyAccount .userAction a,
+  .Application.MyAccount .myInfo a,
+  .Application.MyAccount .insLinkBtn {
+    line-height: 26px;
+  }
+  .Application.MyAccount .userAction,
+  .Application.MyAccount .insLinkBtn,
+  .Application.MyAccount .InsuranceInfoPanel,
+  .Application.MyAccount .MembershipInfo,
+  .Application.MyAccount .myInfo p {
+    line-height: 22px;
+  }
+}
+.Application.MyAccount .userAction a,
+.Application.MyAccount .myInfo a,
+.Application.MyAccount .insLinkBtn,
+.Application.MyAccount .MembershipInfo a,
+.Application.MyAccount .InsuranceInfoPanel a {
+  color: #317ECE !important;
+}

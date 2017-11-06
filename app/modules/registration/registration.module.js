@@ -38,6 +38,29 @@ angular.module('registration',[])
             desktop: false,
             mobile: false
         }
+    })
+	.state('registration.member', {
+        url: '/member',
+        templateUrl:templateBase + 'member/memberWalkup.html',
+        menu: {
+            desktop: false,
+            mobile: false
+        }
+    })
+    .state('registration.insurence', {
+        url: '/insurence',
+        templateUrl:templateBase + 'insurence/insurenceWalkup.html',
+        menu: {
+            desktop: false,
+            mobile: false
+        }
+    })
+    .state('registration.guest', {
+        url: '/guestRegistration',
+        templateUrl:templateBase + 'guest/guestWalkup.html',
+        menu: {
+            desktop: false,
+            mobile: false
+        }
     });
-
 }]);

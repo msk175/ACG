@@ -1,3 +1,240 @@
+<style>
+
+	.cui-card__content p {
+		letter-spacing: 0!important;
+	}
+	body { font-family: helvetica,arial,sans-serif;}
+</style>
+<style>
+	.code-info{display:none;}
+	.cui-card__content p {
+		letter-spacing: 0!important;
+	}
+	body { font-family: helvetica,arial,sans-serif;}
+	.cui-header {
+		background: transparent;
+	}
+	.welcome-wrapper .welcome-title { display:none; }
+	.v2 .cui-desktop-menu {
+	    background: linear-gradient(to bottom, #2A5D99, #2C68AC);
+	}
+	.v2 .cui-menu__toggle-button--desktop,
+	.cui-avatar__color5,
+	.cui-avatar__color4,
+	.cui-avatar__color3,
+	.cui-avatar__color2,
+	.cui-avatar__color1 {
+		background: #2A5D99;
+	}
+	.cui-action__icon--new use,
+	.cui-action__icon--close use,
+	.cui-action__action-label,
+	.cui-action__icon use,
+	.cui-action__icon--lg use,
+	.cui-breadcrumb .cui-breadcrumb__link a.active {
+	    color: #2A5D99;
+	}
+	.cui-popover,
+	.cui-action__popover{
+	    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.9)!important;
+	}
+	.cui-popover__container {
+	    filter: drop-shadow(0 1px 5px rgba(0, 0, 0, 0))!important;
+	}
+	.v2 .cui-desktop-menu__option.active .cui-desktop-menu__icon,
+	.v2 .cui-desktop-menu__option.active .snap-menu__icon,
+	.v2 .snap-menu--option.active .cui-desktop-menu__icon,
+	.v2 .snap-menu--option.active .snap-menu__icon,
+	.cui-action__icon, .cui-action__icon--lg{
+		fill: #2C68AC;
+	}
+	.bold,
+	.cui-breadcrumb .cui-breadcrumb__links,
+	.cui-breadcrumb--mobile .cui-breadcrumb__link--current .cui-breadcrumb__mobile-link, .cui-text-area__label,
+	.cui-expandable__title .cui-expandable__title-left,
+	.cui-expandable__body-pane .cui-expandable__pane-title,
+	.cui-expandable__body-pane .cui-expandable__pane-content,
+	.cui-expandable__body--alt-bg .cui-expandable__body-header,
+	.cui-expandable__body--alt-bg .cui-expandable__link, .cui-card--alt .cui-card__title, .cui-card--alt .cui-card__field,
+	.cui-form--mobile-steps .cui-form__title,
+	.cui-flex-table__heading,
+	.cui-flex-table__tr--b .cui-flex-table__review,
+	.cui-media--centered .cui-media__title, .cui-media__content--dark,
+	.cui-action__title,
+	.cui-action__popover-title,
+	.cui-field-val__field,
+	.cui-modal__primary-message,
+	.cui-modal__secondary-message,
+	.cui-expandable__body--alt-bg-org-suspend .cui-expandable__body-header, .cui-expandable__body--alt-bg-org-suspend .cui-expandable__link, .cui-applications__related-apps-title,
+	.cui-applications__bundled-apps-title,
+	.cui-applications__app-details .cui-tile__title,
+	.cui-applications__claim-name,
+	.cui-applications__new-request .cui-applications__categories .cui-applications__category,
+	.cui-organization__page-title,
+	.cui-organization__user-details .cui-media__content--bold,
+	.cui-organization__approved, .cui-organization__denied, .cui-organization__approval-summary{
+		font-family: arial,helvetica, sans-serif;
+	    font-weight: 600;
+	    letter-spacing: 0;
+	}
+	.cui-action__title{
+		color: #555;
+	}
+	.v2 .cui-desktop-menu__option.active,
+	.v2 .snap-menu--option.active {
+	    background: #eee;
+	    color: #2A5D99;
+	}
+	.cui-avatar__user-menu,
+	.cui-profile__user-menu,
+	.cui-header__user-menu,
+	.cui-profile::before,
+	.cui-header__user::before,
+	.pending-content__block {
+		background:#e4f0ff;
+		background-color:#e4f0ff;
+	}
+	.cui-card-newuser{
+		margin: 0 auto;
+		max-width: 25em;
+	}
+	.cui-card__button,
+	.cui-button,
+	.cui-wizard__next,
+	.cui-form__next,
+	.cui-card__button,
+	.cui-action__popover-button {
+	    border-radius: 25px;
+	}
+	.cui-button,
+	.cui-wizard__next,
+	.cui-form__next,
+	.cui-card__button,
+	.cui-action__popover-button,
+	.cui-applications__manage-apps .cui-tile__title{
+		background-color:#306AA8!important;
+	}
+	.cui-button:hover,
+	.cui-wizard__next:hover,
+	.cui-form__next:hover,
+	.cui-card__button:hover,
+	.cui-action__popover-button:hover{
+		background-color:#3680CB!important;
+	}
+	.cui-breadcrumb .cui-breadcrumb__link a{
+		color:#7891B0;
+	}
+	.cui-link,
+	.cui-expandable__review-button,
+	.cui-expandable__body--alt-bg .cui-expandable__link,
+	.cui-expandable__body--alt-bg .cui-expandable__close,
+	.cui-search__dropdown a,
+	.cui-expandable__link,
+	.cui-pagination__link a,
+	.cui-pagination__display-amount,
+	.cui-media__link, .cui-footer__link,
+	.cui-expandable__body--alt-bg-org-suspend .cui-expandable__link,
+	.cui-expandable__body--alt-bg-org-suspend .cui-expandable__close,
+	.cui-profile .cui-profile__link,
+	.cui-header__user .cui-profile__link,
+	.cui-flex-table__tr--b .cui-flex-table__review,
+	.cui-breadcrumb .cui-breadcrumb__link--current a{
+		color:#306AA8;
+	}
+
+	.cui-link,
+	.cui-expandable__review-button:hover,
+	.cui-expandable__body--alt-bg .cui-expandable__link:hover,
+	.cui-expandable__body--alt-bg .cui-expandable__close:hover,
+	.cui-search__dropdown a:hover,
+	.cui-expandable__link:hover,
+	.cui-pagination__link a:hover,
+	.cui-pagination__display-amount:hover,
+	.cui-media__link:hover,
+	.cui-footer__link:hover,
+	.cui-expandable__body--alt-bg-org-suspend .cui-expandable__link:hover,
+	.cui-expandable__body--alt-bg-org-suspend .cui-expandable__close, .cui-profile .cui-profile__link:hover,
+	.cui-header__user .cui-profile__link:hover,
+	.cui-flex-table__tr--b .cui-flex-table__review:hover{
+		color:#3680CB;
+	}
+	.cui-applications__manage-apps .cui-button,
+	.cui-applications__manage-apps .cui-wizard__next,
+	.cui-applications__manage-apps .cui-form__next, .cui-applications__manage-apps .cui-card__button,
+	.cui-applications__manage-apps .cui-action__popover-button{
+		color:#fff;
+	}
+	.cui-applications__manage-apps .cui-button:hover,
+	.cui-applications__manage-apps .cui-wizard__next:hover,
+	.cui-applications__manage-apps
+    .cui-form__next:hover,
+	.cui-applications__manage-apps .cui-card__button:hover,
+	.cui-applications__manage-apps .cui-action__popover-button:hover{
+    	background-color:#1571D6;
+		color:#fff;
+    }
+	.cui-card__button-login{
+		align-items: center;
+	    background-color: #fff;
+	    border-radius: 25px;
+	    border: 0;
+	    color: #306AA8;
+	    cursor: pointer;
+	    font-size: 15px;
+	    height: 2.8em;
+	    -ms-flex-pack: center;
+	    justify-content: center;
+	    position: relative;
+	    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+	    width: 10.6666666667em;
+	    border: 1px solid #306aab;
+	}
+	.cui-card__icon {
+	    fill: #2B5F9C;
+	}
+	@media screen and (min-width: 600px){
+		.cui-card__container-welcome {
+		    flex-direction: column;
+		}
+	}
+	.login-link{
+		display: inline!important;
+		color:#306AA8!important;
+	}
+	.login-link:hover,
+	.login-link:active
+	.login-link:focus{
+		display: inline!important;
+		color:#3680CB!important;
+	}
+	.cui-off-canvas__list-item,
+	.cui-off-canvas__section {
+		cursor:default;
+	}
+	.js-main-content{
+		background: url(/img/bg/page-bg.png) 0 -145px repeat-x;
+	}
+	.login-container {
+		width: auto;
+		margin: 20px auto 0 auto;
+		max-width: 23em;
+		padding: 0;
+	}
+	.menu-toggle--button,
+	.menu-toggle--button::before,
+	.menu-toggle--button::after{
+		background:#2a5d99!important;
+	}
+	.cui-menu__toggle-button{
+		display:none;
+	}
+	.cui-field-val{
+		letter-spacing:0!important;
+	}
+
+</style>
+
+
 <!-- Welcome -->
 <div class="cui-desktop-menu__option" ui-sref="welcome" ui-sref-active="active" ng-if="!base.user.id" ng-click="base.menu.desktop.close()">
   <span class="cui-desktop-menu__option-name">{{'welcome' | translate}}</span>

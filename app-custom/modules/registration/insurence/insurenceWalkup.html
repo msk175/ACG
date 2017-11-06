@@ -1,0 +1,186 @@
+<style>
+	.code-info {
+		display:none;
+	}
+	body,
+	.bold,
+	.cui-breadcrumb .cui-breadcrumb__links,
+	.cui-breadcrumb--mobile .cui-breadcrumb__link--current .cui-breadcrumb__mobile-link, .cui-text-area__label,
+	.cui-expandable__title .cui-expandable__title-left,
+	.cui-expandable__body-pane .cui-expandable__pane-title,
+	.cui-expandable__body-pane .cui-expandable__pane-content,
+	.cui-expandable__body--alt-bg .cui-expandable__body-header,
+	.cui-expandable__body--alt-bg .cui-expandable__link, .cui-card--alt .cui-card__title, .cui-card--alt .cui-card__field,
+	.cui-form--mobile-steps .cui-form__title,
+	.cui-flex-table__heading,
+	.cui-flex-table__tr--b .cui-flex-table__review,
+	.cui-media--centered .cui-media__title, .cui-media__content--dark,
+	.cui-action__title,
+	.cui-action__popover-title,
+	.cui-field-val__field,
+	.cui-modal__primary-message,
+	.cui-modal__secondary-message,
+	.cui-expandable__body--alt-bg-org-suspend .cui-expandable__body-header, .cui-expandable__body--alt-bg-org-suspend .cui-expandable__link, .cui-applications__related-apps-title,
+	.cui-applications__bundled-apps-title,
+	.cui-applications__app-details .cui-tile__title,
+	.cui-applications__claim-name,
+	.cui-applications__new-request .cui-applications__categories .cui-applications__category,
+	.cui-organization__page-title,
+	.cui-organization__user-details .cui-media__content--bold,
+	.cui-organization__approved, .cui-organization__denied, .cui-organization__approval-summary{
+		font-family: arial,helvetica, sans-serif;
+	    font-weight: 400;
+	    letter-spacing: 0;
+	}
+	.js-main-content{
+		background: url(/img/bg/sso-bg.png) 0 0px repeat-x;
+	}
+	.cui-form--mobile-steps .cui-form__title,
+	.cui-wizard__title,
+	.cui-form__title,
+	.cui-tile__body,
+	.cui-form--mobile-steps .cui-form__body,
+	.cui-wizard__body,
+	.cui-form__body,
+	.cui-header{
+		background:transparent;
+	}
+	.cui-dropdown__item:hover,
+	.angucomplete-selected-row{
+		background-color:#2a5d99;
+	}
+	.highlight {
+	    color: #fd000d;
+	}
+	.menu-toggle--button,
+	.cui-menu__toggle-button,
+	.menu-toggle--button::before,
+	.cui-menu__toggle-button::before,
+	.menu-toggle--button::after,
+	.cui-menu__toggle-button::after,
+	.cui-button,
+	.cui-wizard__next,
+	.cui-form__next,
+	.cui-card__button,
+	.cui-action__popover-button{
+		background:#2a5d99;
+	}
+
+	.cui-button:hover,
+	.cui-wizard__next:hover,
+	.cui-form__next:hover,
+	.cui-card__button:hover,
+	.cui-action__popover-button:hover{
+		background:#3680CB;
+	}
+	.indicator-container--icons.small .step-indicator.active{
+		color:#2a5d99;
+	}
+	.step-indicator.active .icon,
+	.cui-input.ng-touched.ng-valid, .ng-touched.ng-valid.cui-select, .ng-touched.ng-valid.cui-dropdown, .ng-touched.ng-valid.cui-expandable__review-select, .ng-touched.ng-valid.cui-expandable__review-input, .cui-input--valid{
+		border-color:#2a5d99;
+	}
+	.step-indicator.active .cui-icon-rotate, .step-indicator.active .icon-svg{
+		fill:#2a5d99;
+	}
+	.cui-link,
+	.cui-expandable__review-button,
+	.cui-expandable__body--alt-bg .cui-expandable__link,
+	.cui-expandable__body--alt-bg .cui-expandable__close,
+	.cui-search__dropdown a,
+	.cui-expandable__link,
+	.cui-pagination__link a,
+	.cui-pagination__display-amount,
+	.cui-media__link, .cui-footer__link,
+	.cui-expandable__body--alt-bg-org-suspend .cui-expandable__link,
+	.cui-expandable__body--alt-bg-org-suspend .cui-expandable__close,
+	.cui-profile .cui-profile__link,
+	.cui-header__user .cui-profile__link,
+	.cui-flex-table__tr--b .cui-flex-table__review,
+	.cui-breadcrumb .cui-breadcrumb__link--current a,
+	.cui-button--link,
+	.cui-wizard__previous,
+	.cui-form__previous{
+		color:#306AA8!important;
+	}
+
+	.cui-link,
+	.cui-expandable__review-button:hover,
+	.cui-expandable__body--alt-bg .cui-expandable__link:hover,
+	.cui-expandable__body--alt-bg .cui-expandable__close:hover,
+	.cui-search__dropdown a:hover,
+	.cui-expandable__link:hover,
+	.cui-pagination__link a:hover,
+	.cui-pagination__display-amount:hover,
+	.cui-media__link:hover,
+	.cui-footer__link:hover,
+	.cui-expandable__body--alt-bg-org-suspend .cui-expandable__link:hover,
+	.cui-expandable__body--alt-bg-org-suspend .cui-expandable__close, .cui-profile .cui-profile__link:hover,
+	.cui-header__user .cui-profile__link:hover,
+	.cui-flex-table__tr--b .cui-flex-table__review:hover,
+	.cui-button--link:hover,
+	.cui-wizard__previous:hover,
+	.cui-form__previous:hover{
+		color:#3680CB;
+	}
+	
+	.aaa-title {
+		font-weight:700;
+		font-size:18px;
+		margin-bottom:5px;
+	}
+	
+	.aaa-subtitle {
+		font-weight:700;
+		font-size:16px;
+		color:black;
+		margin-bottom:5px;
+	}
+	
+	.disabled, disabled:hover{
+		background-color:lightgrey!important;
+		cursor:default;
+	}
+	
+</style>
+<!-- processHTML:remove -->
+<div class="code-info">The markup and javascript used to create this page can be found <a class="cui-link" href="https://github.com/covisint/cui-idm-b2x/tree/master/app/modules/registration/userWalkup" target="blank">here</a>.</div>
+<!-- /processHTML -->
+
+<!-- Loading: Getting required registration data -->
+<div class="cui-loading__container--organization-list" ng-if="userWalkup.initializing">
+  <div class="cui-loading--center"><div class="cui-loading"></div></div>
+</div>
+
+<div class="cui-form--mobile-steps" ng-if="!userWalkup.initializing">
+
+  <div class="cui-form__title">
+	<div class="aaa-title">{{'create-account' | translate}}</div>
+  </div>  
+  <div class="cui-form__body">
+	<ng-form name="userWalkupForm" novalidate>
+		<!-- <div class="aaa-subtitle">User Information</div> -->
+		<div ng-include="'app/modules/registration/insurence/insurence.html'"></div>
+		
+		<!-- TOS -->
+<!-- 		<div class='cui-tos-container'>
+			<input type="checkbox" name="TOS" id="TOS" ng-model="usersRegister.tos" ng-required="true" class="cui-checkbox">
+			<label ng-click="usersRegister.tos=!usersRegister.tos" class="cui-checkbox__label"> {{'cui-agree-covisint' | translate}}
+				<a href="" class="cui-link cui-padding--h-5">{{'terms-of-service' | translate}}</a> {{'cui-and' | translate}}
+				<a href="" class="cui-link cui-padding--h-5">{{'privacy-policy' | translate}}</a>
+			</label>
+			<span class="cui-wizard__step-error" ng-if="user.TOS.$dirty && user.TOS.$error.required"><br/><br/> {{'cui-tos-agree' | translate}} </span>
+		</div> -->
+
+		<!-- Submit -->
+		<div class="cui-wizard__controls cui-wizard__controls--clear">
+		  <div class="cui-error" ng-if="userWalkup.submitError"><label>{{userWalkup.errorMessage | translate}}</label></div>
+		  <button type="button" class="cui-button" ng-click="userWalkupForm.$valid && userWalkup.submit()" ng-disabled="!userWalkupForm.user.$valid && !userWalkupForm.userLogin.$valid" ng-class="userWalkupForm.$valid ? '' : ''" style="position:relative">
+			<div class="cui-loading--medium-ctr" ng-if="userWalkup.submitting"></div>
+			<span ng-if="!userWalkup.submitting && !userWalkup.submitError">{{'REGISTER' | translate}}</span>
+			<span ng-if="!userWalkup.submitting && userWalkup.submitError" name="review.btnError">Error! Try again?</span>
+		  </button>
+		</div>
+	</ng-form>
+  </div>
+</div>
